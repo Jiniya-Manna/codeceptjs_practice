@@ -4,4 +4,3 @@
 
 #All praticed codeceptjs codes will be in this repo. 
 
-:tea: / :coffee: break you need sometimes
