@@ -23,7 +23,8 @@ export const config: CodeceptJS.MainConfig = {
     "I": "./steps_file",
     "loginPage": "./pages/login.ts",
     "validCompanySearchPage": "./pages/validCompanySearch.ts",
-    "invalidCompanySearchPage": "./pages/invalidCompanySearch.ts"
+    "invalidCompanySearchPage": "./pages/invalidCompanySearch.ts",
+    "invalidPage": "./pages/invalid.ts"
   },
   name: 'codeceptjs_practice',
   fullPromiseBased: true
