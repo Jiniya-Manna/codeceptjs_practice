@@ -15,6 +15,5 @@ export = {
   I.click(x);
   I.seeElement('[data-test-id="page-title"]');
   I.see(x);
-  
 }
 };

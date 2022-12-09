@@ -12,8 +12,4 @@ Scenario('Select random company', ({I}) => {
   
   
 
-
-
-
-
 });
