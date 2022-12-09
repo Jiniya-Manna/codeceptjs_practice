@@ -4,7 +4,6 @@ export = {
 
   submit() {
 
-
     let x = Math.floor((Math.random() * 5) + 1);
     console.log('value',x);
     I.click(`[data-test-id="star-rating"] [data-test-id="rating-inactive"]:nth-child(${x})`);

@@ -21,6 +21,6 @@ Scenario('go to feedback', ({I}) => {
     Scenario('submit feedback', ({ I}) => {
   
       submitPage.submit()
-      
+
     });
 

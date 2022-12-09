@@ -4,6 +4,7 @@ export = {
 
   async login() { 
     I.amOnPage('/login');
+
     I.fillField('[data-testid="email"]' , 'jiniya+1+admin@itobuz.com');
     I.click('[data-testid="continue-btn"]');
     I.fillField('[data-testid="password"]' , 'Password@50');

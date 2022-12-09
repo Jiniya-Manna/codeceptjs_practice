@@ -1,5 +1,6 @@
 const { I } = inject();
 
+
 export = {
 feedback() {
 I.see('Events');
