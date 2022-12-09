@@ -20,6 +20,7 @@ export = {
    I.wait(2);
    I.seeElement('[src="./pretaa-logo.png"]');
  
+   
   }
   };
 
