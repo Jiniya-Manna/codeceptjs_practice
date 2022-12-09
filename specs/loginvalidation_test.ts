@@ -22,7 +22,7 @@ Scenario('Password field blank validation', ({I}) => {
   pwdblankPage.pwdblank()
   }
   );
-
+  
   Scenario('Email field blank validation', ({I}) => {
 
     emailblankPage.emailBlank()

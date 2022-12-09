@@ -13,5 +13,6 @@ forgotPwd() {
   I.seeElement('[data-testid="error-id"]')
   I.wait(2)
 
+  
   }
   };

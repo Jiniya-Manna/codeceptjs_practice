@@ -10,7 +10,8 @@ Scenario('Select random company', async ({I}) => {
  I.see('Companies');
  await companylistPage.companylist();
  await launchPage.launch();
-  
+ 
+ 
 }
 );
 
