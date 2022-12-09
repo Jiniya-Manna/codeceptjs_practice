@@ -5,9 +5,6 @@ import submitPage from "../pages/submit";
 
 Feature('pretaafeedback_test');
 
-
-
-
 Scenario('login_check', ({ I }) => {
 
     I.amOnPage('/login');
@@ -21,12 +18,9 @@ Scenario('go to feedback', ({I}) => {
 
 });
   
-
     Scenario('submit feedback', ({ I}) => {
-    
-    
+  
       submitPage.submit()
-
-
+      
     });
 
