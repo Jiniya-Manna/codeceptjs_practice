@@ -10,6 +10,5 @@ Scenario('Select random company', ({I}) => {
   I.see('Companies');
   companylistPage.companylist();
   
-  
 
 });
