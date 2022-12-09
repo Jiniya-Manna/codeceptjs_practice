@@ -15,5 +15,6 @@ Scenario('feedback_norating', ({I}) => {
     feedbackPage.feedback()
     noratingPage.norating()
 
+    
 });
 
