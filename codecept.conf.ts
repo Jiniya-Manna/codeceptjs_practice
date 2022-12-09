@@ -28,7 +28,9 @@ export const config: CodeceptJS.MainConfig = {
     "validCompanySearchPage": "./pages/validCompanySearch.ts",
     "invalidCompanySearchPage": "./pages/invalidCompanySearch.ts",
     "invalidPage": "./pages/invalid.ts",
-    "settingpagePage": "./pages/settingpage.ts"
+    "settingpagePage": "./pages/settingpage.ts",
+    "notecreatedPage": "./pages/notecreated.ts",
+    "companynotePage": "./pages/companynote.ts"
   },
   name: 'codeceptjs_practice',
   fullPromiseBased: true
