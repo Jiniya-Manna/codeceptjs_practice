@@ -1,10 +1,14 @@
 import loginPage from "../pages/login";
-import validComapanySearch  from "../pages/validCompanySearch";
+import validComapanySearchPage from "../pages/validCompanySearch"
+Feature('invalidSearch');
+Scenario('valid company search', ({ I  }) => {
+loginPage.login() 
+validComapanySearchPage.validComapanySearch()
+});
+import invalidPage from "../pages/invalid"
+Feature('invalidSearch');
+Scenario('invalid company search', ({ I  }) => {
+loginPage.login() 
+invalidPage.invalid()
 
-
-Feature('validCompany');
-Scenario('valid company', async ({ I }) => {
-loginPage.login();
-validComapanySearch.validComapanySearch()
-
-})
+});
