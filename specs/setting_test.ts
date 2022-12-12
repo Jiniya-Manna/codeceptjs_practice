@@ -9,13 +9,12 @@ Scenario('go to setting', async ({ I }) => {
 Scenario('go to admin', async ({ I }) => {
     I.click('.pl-4 div:nth-child(4) h3');
 });
-Scenario('go to users', async ({ I }) => {
+Scenario.skip('go to users', async ({ I }) => {
     I.click('[href="/settings/admin/user-list"]');
     I.wait(20);
     let  words = faker.random.words();
     console.log("output",words);
     I.fillField('[data-testid="search-input"]' ,words);
-    //I.see('No Rows To Show');
     I.click('[href="/logout"]');
     I.wait(2);
 });

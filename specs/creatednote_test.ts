@@ -6,6 +6,7 @@ Scenario('go to note', async ({ I }) => {
     
     loginPage.login();
     validCompanySearchPage.validComapanySearch()
+    
     //companynotePage.companynote()
     I.click('[data-test-id="floating-btn"]');
     I.see('NOTE');
