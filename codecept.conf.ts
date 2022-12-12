@@ -24,7 +24,8 @@ export const config: CodeceptJS.MainConfig = {
   },
   include: {
     "I": "./steps_file",
-    "pagesPage": "./pages/pages.ts"
+    "pagesPage": "./pages/pages.ts",
+    "datadrivenPage": "./pages/datadriven.ts"
   },
   name: 'codeceptjs_practice',
   fullPromiseBased: true
