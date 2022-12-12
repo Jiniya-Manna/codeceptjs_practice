@@ -9,8 +9,6 @@ export = {
       I.click('[data-testid="submit-btn"]');
       I.wait(3);
       I.see('Events');
-  
       I.click('[data-test-id="logout"]');
-  
-      
+
 } };
