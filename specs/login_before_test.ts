@@ -1,12 +1,8 @@
-import { after, before } from "node:test";
-
-Feature('login');
-//Before(() => {
-Scenario('PretaaLogin_test', ({ I }) => {
-    
-    I.amOnPage('https://pretaa-staging.netlify.app/login');
-    I.see('Continue');
-    before(() => {
+Feature('Login');
+Before(({I}) => {
+I.amOnPage('https://pretaa-staging.netlify.app')
+})
+Scenario('Successful login', ({I}) => {
     I.fillField('[data-testid="email"]' , 'jiniya+1+admin@itobuz.com');
     I.click('[data-testid="continue-btn"]');
     I.fillField('[data-testid="password"]' , 'Password@50');
@@ -14,8 +10,8 @@ Scenario('PretaaLogin_test', ({ I }) => {
     I.wait(1);
     I.click('[type="button"]');
     I.click('[data-testid="submit-btn"]');
-    after(() => {
-    });
-});  
+    I.see('Events');
+ });
+After(({I}) => { 
+    I.click('[data-test-id="logout"]');
 });
-
