@@ -1,6 +1,6 @@
-import loginPage = require("../pages/login");
+import login = require("../pages/login");
 Feature('login');
 Scenario('PretaaLogin_test', ({ I  }) => {
-loginPage.login()
+login.login()
 });
 
