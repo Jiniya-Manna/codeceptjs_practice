@@ -1,7 +1,6 @@
 const { I } = inject();
 
 export = {
-  
   async validComapanySearch()  {
   I.click('[href="/companies/list"]');
   I.wait(3)

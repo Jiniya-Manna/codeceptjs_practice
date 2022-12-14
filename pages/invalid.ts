@@ -9,7 +9,9 @@ export = {
     console.log("output",words);
     I.fillField('[data-testid="search-input"]' , words);
     I.see("No results");
+    After(async ({I}) => { 
     I.click('[href="/logout"]');
+    });
     I.wait(2);
   }
 }
