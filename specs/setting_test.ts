@@ -1,4 +1,4 @@
-import loginPage from "../pages/login"
+import loginPage from "..pages/login"
 Feature('setting_test');
 var faker = require ('faker')
 Scenario('go to setting', async ({ I }) => {
@@ -9,7 +9,7 @@ Scenario('go to setting', async ({ I }) => {
 Scenario('go to admin', async ({ I }) => {
     I.click('.pl-4 div:nth-child(4) h3');
 });
-Scenario.skip('go to users', async ({ I }) => {
+Scenario('go to users', async ({ I }) => {
     I.click('[href="/settings/admin/user-list"]');
     I.wait(20);
     let  words = faker.random.words();

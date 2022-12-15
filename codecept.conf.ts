@@ -13,7 +13,10 @@ export const config: CodeceptJS.MainConfig = {
     Playwright: {
       url: 'https://pretaa-staging.netlify.app/',
       show: true,
-      browser: 'chromium'
+      browser: 'chromium',
+      restart:'session',
+      keepBrowserState:true,
+      keepCookies:true
     }
   },
   include: {
