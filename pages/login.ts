@@ -11,6 +11,6 @@ login() {
     I.wait(1);
     I.click('[type="button"]');
     I.click('[data-testid="submit-btn"]');
-    I.wait(3);
+    I.wait(2);
 }
 }

@@ -19,7 +19,7 @@ Scenario.skip('go to users', async ({ I }) => {
     I.wait(2);
 });
 
-Scenario('go to group search',async ({ I }) => { 
+Scenario.skip('go to group search',async ({ I }) => { 
     //I.limitTime(5).click('[href="/settings/admin/user-list"]')
     I.click('[href="/settings/admin/user-list"]');
     I.wait(20);

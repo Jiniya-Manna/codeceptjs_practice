@@ -11,13 +11,14 @@ export const config: CodeceptJS.MainConfig = {
   output: './output',
   helpers: {
     Playwright: {
-      url: 'http://localhost',
+      url: 'https://pretaa-staging.netlify.app/',
       show: true,
       browser: 'chromium'
     }
   },
   include: {
-    I: './steps_file'
+    I: './steps_file',
+    "loginPage": "./pages/login.ts",
   },
   name: 'codeceptjs_practice',
   fullPromiseBased: true,
