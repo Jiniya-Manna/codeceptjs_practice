@@ -1,4 +1,4 @@
-import loginPage = require("../pages/login");
+import loginPage from "../pages/login"
 Feature('setting_test');
 var faker = require ('faker')
 Scenario('go to setting', async ({ I }) => {
@@ -18,6 +18,7 @@ Scenario.skip('go to users', async ({ I }) => {
     I.click('[href="/logout"]');
     I.wait(2);
 });
+
 Scenario('go to group search',async ({ I }) => { 
     //I.limitTime(5).click('[href="/settings/admin/user-list"]')
     I.click('[href="/settings/admin/user-list"]');
