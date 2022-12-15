@@ -20,5 +20,15 @@ export const config: CodeceptJS.MainConfig = {
     I: './steps_file'
   },
   name: 'codeceptjs_practice',
-  fullPromiseBased: true
+  fullPromiseBased: true,
+  plugins:{
+    allure: {
+      enabled:true
+    }
+  }
+}
+{
+  {
+    true
+  }
 }
