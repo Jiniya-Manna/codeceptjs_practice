@@ -30,5 +30,10 @@ export const config: CodeceptJS.MainConfig = {
     "invalidPage": "./pages/invalid.ts"
   },
   name: 'codeceptjs_practice',
-  fullPromiseBased: true
+  fullPromiseBased: true,
+  plugins: {
+    allure: {
+      enabled:true
+}
+  }
 }
