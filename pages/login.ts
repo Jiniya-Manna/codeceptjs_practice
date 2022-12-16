@@ -1,7 +1,7 @@
 const { I } = inject();
 export = {
 login() {
-    I.amOnPage('/login');
+    I.amOnPage('https://pretaa-staging.netlify.app/login');
     I.see('Continue');
     I.fillField('[data-testid="email"]' , 'jiniya+1+admin@itobuz.com');
     I.click('[data-testid="continue-btn"]');

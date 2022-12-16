@@ -14,13 +14,13 @@ export const config: CodeceptJS.MainConfig = {
       url: 'https://pretaa-staging.netlify.app/',
       show: true,
       browser: 'chromium',
-      restart:'session',
+      restart:"session",
       keepBrowserState:true,
       keepCookies:true
     }
   },
   include: {
-    I: './steps_file',
+    I:'./steps_file',
     "loginPage": "./pages/login.ts",
   },
   name: 'codeceptjs_practice',
