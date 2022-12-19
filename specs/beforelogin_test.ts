@@ -24,5 +24,6 @@ Scenario('Successful login', ({I}) => {
  After(async ({I}) => { 
   I.click('[data-test-id="logout"]');
 
+  
  });
  
