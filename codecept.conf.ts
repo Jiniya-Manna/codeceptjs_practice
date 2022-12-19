@@ -16,14 +16,16 @@ export const config: CodeceptJS.MainConfig = {
     Playwright: {
       url: 'https://pretaa-staging.netlify.app',
       show: true,
-      browser: 'chromium'
+      browser: 'chromium',
+      restart:"session",
+      keepBrowserState:true,
+      keepCookies:false
     }
   },
   include: {
     "I": "./steps_file",
     "loginPage": "./pages/login.ts",
     "validCompanySearchPage": "./pages/validCompanySearch.ts",
-    "invalidCompanySearchPage": "./pages/invalidCompanySearch.ts",
     "invalidPage": "./pages/invalid.ts"
   },
   name: 'codeceptjs_practice',

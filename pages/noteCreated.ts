@@ -2,7 +2,7 @@ const { I } = inject();
 
 export = {
   
-  async validComapanySearch()  {
+  async noteCreated()  {
   I.click('[href="/companies/list"]');
   I.wait(3)
   let companyList = await I.grabTextFromAll('[data-test-id="company-row"]');
@@ -16,11 +16,9 @@ export = {
   I.wait(3);
   I.click('[data-test-id="floating-btn"]')
   I.limitTime(2).click('[data-testid="note-create"]');
-  I.fillField('[class="pb-4"] input' , 'This is pretaa health');
-  I.wait(1);
-  I.fillField('[class="quill "] p:nth-child(1)' , 'Pretaa health app is good');
-  I.click('[type="submit"]');
-  I.wait(2);
- 
+  I.fillField('[name="subject"]' , 'Pretaa');
+  //I.wait(2);
+  I.fillField('[data-placeholder="Add Details"]' , ' Preta app is good ');
+  I.limitTime(3).click('[type="submit"]');
 }
 }
