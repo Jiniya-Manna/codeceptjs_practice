@@ -14,25 +14,26 @@ invalidemailPage.invalidEmail()
 
 
 }
-);
+)
 
 Scenario('Password field blank validation', ({I}) => {
 
  
   pwdblankPage.pwdblank()
   }
-  );
+  ).tag('@slow').tag('important');
+
   
   Scenario('Email field blank validation', ({I}) => {
 
     emailblankPage.emailBlank()
     }
-    );
+    )
 
     Scenario('ForgotPwd_invalid email validation', ({I}) => {
 
       forgotpwdPage.forgotPwd()
       }
-      );
+      )
     
   

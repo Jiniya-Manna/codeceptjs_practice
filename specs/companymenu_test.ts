@@ -11,4 +11,4 @@ Scenario('Select random company', ({I}) => {
   companylistPage.companylist();
   
 
-});
+}).tag('@slow').tag('important');

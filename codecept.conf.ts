@@ -22,11 +22,17 @@ export const config: CodeceptJS.MainConfig = {
       keepCookies: true,
     }
   },
+
   include: {
     "I": "./steps_file",
     "pagesPage": "./pages/pages.ts",
     "datadrivenPage": "./pages/datadriven.ts"
   },
   name: 'codeceptjs_practice',
-  fullPromiseBased: true
+  fullPromiseBased: true,
+  plugins:{
+    allure : {
+     enabled : true
+    }
+}
 }
