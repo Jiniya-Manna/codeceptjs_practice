@@ -4,7 +4,7 @@ export = {
   
   async validComapanySearch()  {
   I.click('[href="/companies/list"]');
-  I.wait(3)
+  I.wait(3);
   let companyList = await I.grabTextFromAll('[data-test-id="company-row"]');
   console.log(companyList);
   let random = Math.floor(Math.random() * companyList.length);
