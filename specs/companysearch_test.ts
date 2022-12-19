@@ -10,5 +10,7 @@ Feature('invalidSearch');
 Scenario('invalid company search', ({ I  }) => {
 loginPage.login() 
 invalidPage.invalid()
+I.click('[href="/logout"]');
+I.wait(2);
 
 });
