@@ -5,8 +5,6 @@ import {
 // turn on headless mode when running with HEADLESS=true environment variable
 // export HEADLESS=true && npx codeceptjs run
 setHeadlessWhen(process.env.HEADLESS);
-
-// enable all common plugins https://github.com/codeceptjs/configure#setcommonplugins
 setCommonPlugins();
 
 export const config: CodeceptJS.MainConfig = {
@@ -16,16 +14,31 @@ export const config: CodeceptJS.MainConfig = {
     Playwright: {
       url: 'https://pretaa-staging.netlify.app',
       show: true,
-      browser: 'chromium'
+      browser: 'chromium',
+      restart: "session",
+      keepBrowserState: true,
+      keepCookies: true,
     }
   },
-  include: {
+multiple : {
+  parallel: {
+    chunks : 2,
+    browser : 'chromium',
+    browsers: 'firefox',
+    windowSize : 'maximize',
+  }
+},
+ include: {
     "I": "./steps_file",
-    "loginPage": "./pages/login.ts",
-    "validCompanySearchPage": "./pages/validCompanySearch.ts",
-    "invalidCompanySearchPage": "./pages/invalidCompanySearch.ts",
-    "invalidPage": "./pages/invalid.ts"
+    "pagesPage": "./pages/pages.ts",
+    "datadrivenPage": "./pages/datadriven.ts"
   },
   name: 'codeceptjs_practice',
-  fullPromiseBased: true
+  fullPromiseBased: true,
+  plugins:{
+    allure : {
+     enabled : true
+    }
 }
+};
+
