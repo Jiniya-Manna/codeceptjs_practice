@@ -1,0 +1,136 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672128015527' stop='1672128029182'>
+    <name>pretaafeedback_test:</name>
+    <title>pretaafeedback_test:</title>
+    <test-cases>
+        <test-case start='1672128015528' status='passed' stop='1672128029178'>
+            <name>feedback_norating</name>
+            <title>feedback_norating</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1672128015535' status='passed' stop='1672128016835'>
+                    <name>I am on page "/login"</name>
+                    <title>I am on page "/login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672128016835' status='passed' stop='1672128017767'>
+                    <name>I am on page "/login"</name>
+                    <title>I am on page "/login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672128017767' status='passed' stop='1672128018345'>
+                    <name>I fill field "[data-testid="email"]", "jiniya+1+admin@itobuz.com"</name>
+                    <title>I fill field "[data-testid="email"]", "jiniya+1+admin@itobuz.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672128018345' status='passed' stop='1672128018504'>
+                    <name>I click "[data-testid="continue-btn"]"</name>
+                    <title>I click "[data-testid="continue-btn"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672128018505' status='passed' stop='1672128019865'>
+                    <name>I fill field "[data-testid="password"]", "Password@50"</name>
+                    <title>I fill field "[data-testid="password"]", "Password@50"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672128019865' status='passed' stop='1672128019876'>
+                    <name>I see "Show Password"</name>
+                    <title>I see "Show Password"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672128019876' status='passed' stop='1672128020878'>
+                    <name>I wait 1</name>
+                    <title>I wait 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672128020878' status='passed' stop='1672128021021'>
+                    <name>I click "[type="button"]"</name>
+                    <title>I click "[type="button"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672128021022' status='passed' stop='1672128021162'>
+                    <name>I click "[data-testid="submit-btn"]"</name>
+                    <title>I click "[data-testid="submit-btn"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672128021162' status='passed' stop='1672128023469'>
+                    <name>I see "Events"</name>
+                    <title>I see "Events"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672128023469' status='passed' stop='1672128023479'>
+                    <name>I see "Events"</name>
+                    <title>I see "Events"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672128023479' status='passed' stop='1672128023661'>
+                    <name>I click "[data-testid="feedback-link"]"</name>
+                    <title>I click "[data-testid="feedback-link"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672128023661' status='passed' stop='1672128023689'>
+                    <name>I see "Feedback"</name>
+                    <title>I see "Feedback"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672128023689' status='passed' stop='1672128024690'>
+                    <name>I wait 1</name>
+                    <title>I wait 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672128024690' status='passed' stop='1672128024702'>
+                    <name>I see "Feedback"</name>
+                    <title>I see "Feedback"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672128024702' status='passed' stop='1672128026703'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672128026703' status='passed' stop='1672128027006'>
+                    <name>I fill field "[data-test-id="feedback-comment"]", "test comment"</name>
+                    <title>I fill field "[data-test-id="feedback-comment"]", "test comment"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672128027006' status='passed' stop='1672128027166'>
+                    <name>I click "[data-testid="save-btn"]"</name>
+                    <title>I click "[data-testid="save-btn"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672128027166' status='passed' stop='1672128029167'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672128029167' status='passed' stop='1672128029178'>
+                    <name>I see "Feedback value is a required field"</name>
+                    <title>I see "Feedback value is a required field"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

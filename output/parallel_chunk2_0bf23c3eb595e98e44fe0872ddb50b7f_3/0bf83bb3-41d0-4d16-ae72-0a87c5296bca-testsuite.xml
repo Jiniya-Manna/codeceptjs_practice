@@ -1,0 +1,199 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672136139342' stop='1672136165493'>
+    <name>pretaacomments_test:</name>
+    <title>pretaacomments_test:</title>
+    <test-cases>
+        <test-case start='1672136139342' status='passed' stop='1672136146031'>
+            <name>Invalid email validation</name>
+            <title>Invalid email validation</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1672136139346' status='passed' stop='1672136141052'>
+                    <name>I am on page "/login"</name>
+                    <title>I am on page "/login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672136141052' status='passed' stop='1672136141428'>
+                    <name>I fill field "[data-testid="email"]", "123@itobuz.com"</name>
+                    <title>I fill field "[data-testid="email"]", "123@itobuz.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672136141429' status='passed' stop='1672136141616'>
+                    <name>I click "[data-testid="continue-btn"]"</name>
+                    <title>I click "[data-testid="continue-btn"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672136141616' status='passed' stop='1672136143904'>
+                    <name>I see element "[data-testid="error-id"]"</name>
+                    <title>I see element "[data-testid="error-id"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672136143904' status='passed' stop='1672136145905'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672136145905' status='passed' stop='1672136146030'>
+                    <name>I clear field "[data-testid="email"]"</name>
+                    <title>I clear field "[data-testid="email"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1672136146036' status='passed' stop='1672136153148'>
+            <name>Password field blank validation</name>
+            <title>Password field blank validation</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1672136146041' status='passed' stop='1672136146446'>
+                    <name>I fill field "[data-testid="email"]", "admin@itobuz.com"</name>
+                    <title>I fill field "[data-testid="email"]", "admin@itobuz.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672136146446' status='passed' stop='1672136146581'>
+                    <name>I click "[data-testid="continue-btn"]"</name>
+                    <title>I click "[data-testid="continue-btn"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672136146581' status='passed' stop='1672136148582'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672136148582' status='passed' stop='1672136148736'>
+                    <name>I click "[data-testid="submit-btn"]"</name>
+                    <title>I click "[data-testid="submit-btn"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672136148736' status='passed' stop='1672136151021'>
+                    <name>I see element "[data-testid="error-id"]"</name>
+                    <title>I see element "[data-testid="error-id"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672136151021' status='passed' stop='1672136153022'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672136153023' status='passed' stop='1672136153148'>
+                    <name>I clear field "[data-testid="email"]"</name>
+                    <title>I clear field "[data-testid="email"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1672136153154' status='passed' stop='1672136158312'>
+            <name>Email field blank validation</name>
+            <title>Email field blank validation</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1672136153158' status='passed' stop='1672136154073'>
+                    <name>I refresh page "/login"</name>
+                    <title>I refresh page "/login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672136154073' status='passed' stop='1672136154253'>
+                    <name>I click "[data-testid="continue-btn"]"</name>
+                    <title>I click "[data-testid="continue-btn"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672136154253' status='passed' stop='1672136156254'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672136156254' status='passed' stop='1672136156310'>
+                    <name>I see element "[data-testid="email-error"]"</name>
+                    <title>I see element "[data-testid="email-error"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672136156311' status='passed' stop='1672136158312'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1672136158318' status='passed' stop='1672136165489'>
+            <name>ForgotPwd_invalid email validation</name>
+            <title>ForgotPwd_invalid email validation</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1672136158325' status='passed' stop='1672136158530'>
+                    <name>I click "[href="/forgot_password"]"</name>
+                    <title>I click "[href="/forgot_password"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672136158530' status='passed' stop='1672136159035'>
+                    <name>I see element ".text-gray-150.mb-8.text-center.sub-text"</name>
+                    <title>I see element ".text-gray-150.mb-8.text-center.sub-text"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672136159035' status='passed' stop='1672136159322'>
+                    <name>I fill field "[class="flex flex-col"] [name=email]", "abc@abc"</name>
+                    <title>I fill field "[class="flex flex-col"] [name=email]", "abc@abc"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672136159322' status='passed' stop='1672136161323'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672136161323' status='passed' stop='1672136161475'>
+                    <name>I click "[type="submit"]"</name>
+                    <title>I click "[type="submit"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672136161475' status='passed' stop='1672136163476'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672136163476' status='passed' stop='1672136163487'>
+                    <name>I see element "[data-testid="error-id"]"</name>
+                    <title>I see element "[data-testid="error-id"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672136163487' status='passed' stop='1672136165489'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

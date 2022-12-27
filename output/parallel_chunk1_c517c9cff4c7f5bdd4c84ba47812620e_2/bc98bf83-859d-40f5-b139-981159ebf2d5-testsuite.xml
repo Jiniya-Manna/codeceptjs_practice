@@ -1,0 +1,57 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672138781036' stop='1672138817791'>
+    <name>pretaa_comments_test:</name>
+    <title>pretaa_comments_test:</title>
+    <test-cases>
+        <test-case start='1672138781036' status='failed' stop='1672138817712'>
+            <name>Select random company</name>
+            <title>Select random company</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1672138781043' status='passed' stop='1672138782381'>
+                    <name>I am on page "/login"</name>
+                    <title>I am on page "/login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672138782382' status='passed' stop='1672138782392'>
+                    <name>I see element "[src="./pretaa-logo.png"]"</name>
+                    <title>I see element "[src="./pretaa-logo.png"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672138782392' status='passed' stop='1672138782980'>
+                    <name>I fill field "[data-testid="email"]", "jiniya+1+admin@itobuz.com"</name>
+                    <title>I fill field "[data-testid="email"]", "jiniya+1+admin@itobuz.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672138782981' status='failed' stop='1672138817711'>
+                    <name>I click "[data-testid="continue-btn"]"</name>
+                    <title>I click "[data-testid="continue-btn"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='82735103-ca09-40bd-a1f6-f7da1f9798dc-attachment.png' type='image/png' size='41613'/>
+            </attachments>
+            <failure>
+                <message>elementHandle.click: Timeout 5000ms exceeded.
+                =========================== logs ===========================
+                attempting click action
+                  waiting for element to be visible, enabled and stable
+                ============================================================</message>
+                <stack-trace>elementHandle.click: Timeout 5000ms exceeded.
+                =========================== logs ===========================
+                attempting click action
+                  waiting for element to be visible, enabled and stable
+                ============================================================
+                    at Playwright.proceedClick (/Users/macbook/Desktop/myfirstrepo/codeceptjs_practice/node_modules/codeceptjs/lib/helper/Playwright.js:2596:19)
+                    at async Object.companylist (/Users/macbook/Desktop/myfirstrepo/codeceptjs_practice/pages/companylist.ts:8:21)
+                    at async Test.&lt;anonymous> (/Users/macbook/Desktop/myfirstrepo/codeceptjs_practice/specs/launchemail_test.ts:11:2)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

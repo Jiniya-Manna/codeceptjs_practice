@@ -1,0 +1,76 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672135967405' stop='1672135979920'>
+    <name>Login:</name>
+    <title>Login:</title>
+    <test-cases>
+        <test-case start='1672135968676' status='passed' stop='1672135979578'>
+            <name>Successful login</name>
+            <title>Successful login</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1672135970683' status='passed' stop='1672135972580'>
+                    <name>I am on page "https://pretaa-staging.netlify.app"</name>
+                    <title>I am on page "https://pretaa-staging.netlify.app"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672135972585' status='passed' stop='1672135973192'>
+                    <name>I fill field "[data-testid="email"]", "jiniya+1+admin@itobuz.com"</name>
+                    <title>I fill field "[data-testid="email"]", "jiniya+1+admin@itobuz.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672135973192' status='passed' stop='1672135973355'>
+                    <name>I click "[data-testid="continue-btn"]"</name>
+                    <title>I click "[data-testid="continue-btn"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672135973356' status='passed' stop='1672135975922'>
+                    <name>I fill field "[data-testid="password"]", "Password@50"</name>
+                    <title>I fill field "[data-testid="password"]", "Password@50"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672135975922' status='passed' stop='1672135975932'>
+                    <name>I see "Show Password"</name>
+                    <title>I see "Show Password"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672135975932' status='passed' stop='1672135976932'>
+                    <name>I wait 1</name>
+                    <title>I wait 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672135976933' status='passed' stop='1672135977068'>
+                    <name>I click "[type="button"]"</name>
+                    <title>I click "[type="button"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672135977068' status='passed' stop='1672135977229'>
+                    <name>I click "[data-testid="submit-btn"]"</name>
+                    <title>I click "[data-testid="submit-btn"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672135977229' status='passed' stop='1672135979578'>
+                    <name>I see "Events"</name>
+                    <title>I see "Events"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672135979581' status='passed' stop='1672135979911'>
+                    <name>I click "[data-test-id="logout"]"</name>
+                    <title>I click "[data-test-id="logout"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

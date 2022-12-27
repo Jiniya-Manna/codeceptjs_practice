@@ -1,0 +1,149 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672132100243' stop='1672132115431'>
+    <name>pretaafeedback_test:</name>
+    <title>pretaafeedback_test:</title>
+    <test-cases>
+        <test-case start='1672132100244' status='failed' stop='1672132106289'>
+            <name>login_check @slow @slow @important</name>
+            <title>login_check @slow @slow @important</title>
+            <labels>
+                <label name='tag' value='@slow'/>
+                <label name='tag' value='@slow'/>
+                <label name='tag' value='@important'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1672132100248' status='passed' stop='1672132101606'>
+                    <name>I am on page "/login"</name>
+                    <title>I am on page "/login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672132101606' status='failed' stop='1672132106289'>
+                    <name>I fill field "[data-testid="email"]", "jiniya+1+admin@itobuz.com"</name>
+                    <title>I fill field "[data-testid="email"]", "jiniya+1+admin@itobuz.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='7d89866b-5018-4f7f-a557-135f8e9d39ab-attachment.png' type='image/png' size='113312'/>
+            </attachments>
+            <failure>
+                <message>Field "[data-testid="email"]" was not found by text|CSS|XPath</message>
+                <stack-trace>Error: Field "[data-testid="email"]" was not found by text|CSS|XPath
+                    at new ElementNotFound (/Users/macbook/Desktop/myfirstrepo/codeceptjs_practice/node_modules/codeceptjs/lib/helper/errors/ElementNotFound.js:14:11)
+                    at assertElementExists (/Users/macbook/Desktop/myfirstrepo/codeceptjs_practice/node_modules/codeceptjs/lib/helper/Playwright.js:2811:11)
+                    at Playwright.fillField (/Users/macbook/Desktop/myfirstrepo/codeceptjs_practice/node_modules/codeceptjs/lib/helper/Playwright.js:1455:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1672132106462' status='passed' stop='1672132107874'>
+            <name>go to feedback</name>
+            <title>go to feedback</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1672132106467' status='passed' stop='1672132106474'>
+                    <name>I see "Events"</name>
+                    <title>I see "Events"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672132106474' status='passed' stop='1672132106724'>
+                    <name>I click "[data-testid="feedback-link"]"</name>
+                    <title>I click "[data-testid="feedback-link"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672132106725' status='passed' stop='1672132106872'>
+                    <name>I see "Feedback"</name>
+                    <title>I see "Feedback"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672132106873' status='passed' stop='1672132107874'>
+                    <name>I wait 1</name>
+                    <title>I wait 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1672132107877' status='passed' stop='1672132115427'>
+            <name>submit feedback</name>
+            <title>submit feedback</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1672132107880' status='passed' stop='1672132108025'>
+                    <name>I click "[data-test-id="star-rating"] [data-test-id="rating-inactive"]:nth-child(2)"</name>
+                    <title>I click "[data-test-id="star-rating"] [data-test-id="rating-inactive"]:nth-child(2)"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672132108025' status='passed' stop='1672132110026'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672132110026' status='passed' stop='1672132110345'>
+                    <name>I fill field "[data-test-id="feedback-comment"]", "test comment"</name>
+                    <title>I fill field "[data-test-id="feedback-comment"]", "test comment"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672132110346' status='passed' stop='1672132110482'>
+                    <name>I click "[data-testid="save-btn"]"</name>
+                    <title>I click "[data-testid="save-btn"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672132110482' status='passed' stop='1672132112482'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672132112482' status='passed' stop='1672132112491'>
+                    <name>I see element "[data-test-id="modal-title"]"</name>
+                    <title>I see element "[data-test-id="modal-title"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672132112492' status='passed' stop='1672132112663'>
+                    <name>I click "[class="text-xmd text-gray-400"]"</name>
+                    <title>I click "[class="text-xmd text-gray-400"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672132112664' status='passed' stop='1672132114665'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672132114665' status='passed' stop='1672132114674'>
+                    <name>I see "Events"</name>
+                    <title>I see "Events"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672132114674' status='passed' stop='1672132114941'>
+                    <name>I click "[href="/logout"]"</name>
+                    <title>I click "[href="/logout"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672132114941' status='passed' stop='1672132115427'>
+                    <name>I see element "[src="./pretaa-logo.png"]"</name>
+                    <title>I see element "[src="./pretaa-logo.png"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

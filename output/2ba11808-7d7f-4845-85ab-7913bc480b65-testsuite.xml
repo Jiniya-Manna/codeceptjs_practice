@@ -1,0 +1,43 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1671448676805' stop='1671448681881'>
+    <name>login:</name>
+    <title>login:</title>
+    <test-cases>
+        <test-case start='1671448677232' status='passed' stop='1671448680386'>
+            <name>PretaaLogin_test | {"login":"jiniya+1@itobuz.com","password":"Password@50"}</name>
+            <title>PretaaLogin_test | {"login":"jiniya+1@itobuz.com","password":"Password@50"}</title>
+            <labels>
+                <label name='tag' value='@itobuz'/>
+                <label name='tag' value='@50'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1671448678150' status='passed' stop='1671448680386'>
+                    <name>I am on page "https://pretaa-staging.netlify.app/login"</name>
+                    <title>I am on page "https://pretaa-staging.netlify.app/login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1671448680393' status='passed' stop='1671448681875'>
+            <name>PretaaLogin_test | {"login":"jiniya+1+admin@itobuz.com","password":"Password@50"}</name>
+            <title>PretaaLogin_test | {"login":"jiniya+1+admin@itobuz.com","password":"Password@50"}</title>
+            <labels>
+                <label name='tag' value='@itobuz'/>
+                <label name='tag' value='@50'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1671448680399' status='passed' stop='1671448681875'>
+                    <name>I am on page "https://pretaa-staging.netlify.app/login"</name>
+                    <title>I am on page "https://pretaa-staging.netlify.app/login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

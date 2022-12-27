@@ -1,0 +1,73 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672136123167' stop='1672136139333'>
+    <name>pretaafeedback_test:</name>
+    <title>pretaafeedback_test:</title>
+    <test-cases>
+        <test-case start='1672136123732' status='failed' stop='1672136129552'>
+            <name>login check</name>
+            <title>login check</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1672136124816' status='failed' stop='1672136129550'>
+                    <name>I see element "[src="./pretaa-logo.png"]"</name>
+                    <title>I see element "[src="./pretaa-logo.png"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='8784085e-837c-4f3d-a5c8-70fd1995a830-attachment.png' type='image/png' size='5320'/>
+            </attachments>
+            <failure>
+                <message></message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1672136129670' status='failed' stop='1672136134416'>
+            <name>go to feedback</name>
+            <title>go to feedback</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1672136129676' status='failed' stop='1672136134416'>
+                    <name>I see "Events"</name>
+                    <title>I see "Events"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='5b2f75d4-530a-492e-8063-5a1b3d886602-attachment.png' type='image/png' size='5320'/>
+            </attachments>
+            <failure>
+                <message></message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1672136134530' status='failed' stop='1672136139230'>
+            <name>submit feedback</name>
+            <title>submit feedback</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1672136134535' status='failed' stop='1672136139230'>
+                    <name>I click "[data-test-id="star-rating"] [data-test-id="rating-inactive"]:nth-child(2)"</name>
+                    <title>I click "[data-test-id="star-rating"] [data-test-id="rating-inactive"]:nth-child(2)"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='f410f704-14b4-4a48-a903-e35eed0c5cb4-attachment.png' type='image/png' size='5320'/>
+            </attachments>
+            <failure>
+                <message>Clickable element "[data-test-id="star-rating"] [data-test-id="rating-inactive"]:nth-child(2)" was not found by text|CSS|XPath</message>
+                <stack-trace>Error: Clickable element "[data-test-id="star-rating"] [data-test-id="rating-inactive"]:nth-child(2)" was not found by text|CSS|XPath
+                    at new ElementNotFound (/Users/macbook/Desktop/myfirstrepo/codeceptjs_practice/node_modules/codeceptjs/lib/helper/errors/ElementNotFound.js:14:11)
+                    at assertElementExists (/Users/macbook/Desktop/myfirstrepo/codeceptjs_practice/node_modules/codeceptjs/lib/helper/Playwright.js:2811:11)
+                    at Playwright.proceedClick (/Users/macbook/Desktop/myfirstrepo/codeceptjs_practice/node_modules/codeceptjs/lib/helper/Playwright.js:2587:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

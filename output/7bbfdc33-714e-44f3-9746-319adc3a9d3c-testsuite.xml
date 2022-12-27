@@ -1,0 +1,100 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672139977280' stop='1672139989524'>
+    <name>pretaafeedback_test:</name>
+    <title>pretaafeedback_test:</title>
+    <test-cases>
+        <test-case start='1672139977281' status='passed' stop='1672139984617'>
+            <name>login check</name>
+            <title>login check</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1672139977287' status='passed' stop='1672139978256'>
+                    <name>I am on page "/login"</name>
+                    <title>I am on page "/login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672139978256' status='passed' stop='1672139978267'>
+                    <name>I see element "[src="./pretaa-logo.png"]"</name>
+                    <title>I see element "[src="./pretaa-logo.png"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672139978267' status='passed' stop='1672139978800'>
+                    <name>I fill field "[data-testid="email"]", "jiniya+1+admin@itobuz.com"</name>
+                    <title>I fill field "[data-testid="email"]", "jiniya+1+admin@itobuz.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672139978801' status='passed' stop='1672139978973'>
+                    <name>I click "[data-testid="continue-btn"]"</name>
+                    <title>I click "[data-testid="continue-btn"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672139978973' status='passed' stop='1672139980334'>
+                    <name>I fill field "[data-testid="password"]", "Password@50"</name>
+                    <title>I fill field "[data-testid="password"]", "Password@50"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672139980335' status='passed' stop='1672139980345'>
+                    <name>I see "Show Password"</name>
+                    <title>I see "Show Password"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672139980345' status='passed' stop='1672139981347'>
+                    <name>I wait 1</name>
+                    <title>I wait 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672139981348' status='passed' stop='1672139981478'>
+                    <name>I click "[type="button"]"</name>
+                    <title>I click "[type="button"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672139981478' status='passed' stop='1672139981615'>
+                    <name>I click "[data-testid="submit-btn"]"</name>
+                    <title>I click "[data-testid="submit-btn"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672139981616' status='passed' stop='1672139984617'>
+                    <name>I wait 3</name>
+                    <title>I wait 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1672139984622' status='failed' stop='1672139989321'>
+            <name>submit feedback</name>
+            <title>submit feedback</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1672139984628' status='failed' stop='1672139989314'>
+                    <name>I click "[data-test-id="star-rating"] [data-test-id="rating-inactive"]:nth-child(1)"</name>
+                    <title>I click "[data-test-id="star-rating"] [data-test-id="rating-inactive"]:nth-child(1)"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='7b075434-cae4-4893-a18c-abd700a6925f-attachment.png' type='image/png' size='109970'/>
+            </attachments>
+            <failure>
+                <message>Clickable element "[data-test-id="star-rating"] [data-test-id="rating-inactive"]:nth-child(1)" was not found by text|CSS|XPath</message>
+                <stack-trace>Error: Clickable element "[data-test-id="star-rating"] [data-test-id="rating-inactive"]:nth-child(1)" was not found by text|CSS|XPath
+                    at new ElementNotFound (/Users/macbook/Desktop/myfirstrepo/codeceptjs_practice/node_modules/codeceptjs/lib/helper/errors/ElementNotFound.js:14:11)
+                    at assertElementExists (/Users/macbook/Desktop/myfirstrepo/codeceptjs_practice/node_modules/codeceptjs/lib/helper/Playwright.js:2811:11)
+                    at Playwright.proceedClick (/Users/macbook/Desktop/myfirstrepo/codeceptjs_practice/node_modules/codeceptjs/lib/helper/Playwright.js:2587:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

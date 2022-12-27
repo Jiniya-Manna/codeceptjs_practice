@@ -21,8 +21,7 @@ Scenario('Password field blank validation', ({I}) => {
  
   pwdblankPage.pwdblank()
   }
-  ).tag('@slow').tag('important');
-
+  );
   
   Scenario('Email field blank validation', ({I}) => {
 

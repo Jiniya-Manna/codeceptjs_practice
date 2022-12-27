@@ -22,6 +22,13 @@ export const config: CodeceptJS.MainConfig = {
       keepCookies: true,
     }
   },
+multiple : {
+  parallel: {
+    chunks : 1,
+    browsers : ["chromium" , "firefox"]
+  }
+},
+ 
 
   include: {
     "I": "./steps_file",
@@ -35,4 +42,7 @@ export const config: CodeceptJS.MainConfig = {
      enabled : true
     }
 }
-}
+};
+ 
+
+  

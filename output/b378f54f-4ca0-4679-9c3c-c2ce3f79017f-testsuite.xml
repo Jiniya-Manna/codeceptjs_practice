@@ -1,0 +1,67 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672140002229' stop='1672140014013'>
+    <name>pretaacomments_test:</name>
+    <title>pretaacomments_test:</title>
+    <test-cases>
+        <test-case start='1672140002229' status='failed' stop='1672140007990'>
+            <name>Invalid email validation</name>
+            <title>Invalid email validation</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1672140002234' status='passed' stop='1672140003303'>
+                    <name>I am on page "/login"</name>
+                    <title>I am on page "/login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672140003304' status='failed' stop='1672140007987'>
+                    <name>I fill field "[data-testid="email"]", "123@itobuz.com"</name>
+                    <title>I fill field "[data-testid="email"]", "123@itobuz.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='adc82d60-74f0-4bcb-83f9-19835c3fe542-attachment.png' type='image/png' size='110400'/>
+            </attachments>
+            <failure>
+                <message>Field "[data-testid="email"]" was not found by text|CSS|XPath</message>
+                <stack-trace>Error: Field "[data-testid="email"]" was not found by text|CSS|XPath
+                    at new ElementNotFound (/Users/macbook/Desktop/myfirstrepo/codeceptjs_practice/node_modules/codeceptjs/lib/helper/errors/ElementNotFound.js:14:11)
+                    at assertElementExists (/Users/macbook/Desktop/myfirstrepo/codeceptjs_practice/node_modules/codeceptjs/lib/helper/Playwright.js:2811:11)
+                    at Playwright.fillField (/Users/macbook/Desktop/myfirstrepo/codeceptjs_practice/node_modules/codeceptjs/lib/helper/Playwright.js:1455:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1672140008174' status='failed' stop='1672140013859'>
+            <name>Email field blank validation</name>
+            <title>Email field blank validation</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1672140008179' status='passed' stop='1672140009156'>
+                    <name>I refresh page "/login"</name>
+                    <title>I refresh page "/login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672140009156' status='failed' stop='1672140013857'>
+                    <name>I click "[data-testid="continue-btn"]"</name>
+                    <title>I click "[data-testid="continue-btn"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='209ee816-a479-4fdd-ba3e-95cc2428dca7-attachment.png' type='image/png' size='110400'/>
+            </attachments>
+            <failure>
+                <message>Clickable element "[data-testid="continue-btn"]" was not found by text|CSS|XPath</message>
+                <stack-trace>Error: Clickable element "[data-testid="continue-btn"]" was not found by text|CSS|XPath
+                    at new ElementNotFound (/Users/macbook/Desktop/myfirstrepo/codeceptjs_practice/node_modules/codeceptjs/lib/helper/errors/ElementNotFound.js:14:11)
+                    at assertElementExists (/Users/macbook/Desktop/myfirstrepo/codeceptjs_practice/node_modules/codeceptjs/lib/helper/Playwright.js:2811:11)
+                    at Playwright.proceedClick (/Users/macbook/Desktop/myfirstrepo/codeceptjs_practice/node_modules/codeceptjs/lib/helper/Playwright.js:2587:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,20 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672132054849' stop='1672132084853'>
+    <name>pretaacomments_test:</name>
+    <title>pretaacomments_test:</title>
+    <test-cases>
+        <test-case start='1672132084853' status='failed' stop='1672132084853'>
+            <name>BeforeSuite of suite pretaacomments_test: failed.</name>
+            <title>BeforeSuite of suite pretaacomments_test: failed.</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>electron.launch: Timeout 30000ms exceeded.</message>
+                <stack-trace>electron.launch: Timeout 30000ms exceeded.
+                    at async Playwright._startBrowser (/Users/macbook/Desktop/myfirstrepo/codeceptjs_practice/node_modules/codeceptjs/lib/helper/Playwright.js:710:22)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,166 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672138700343' stop='1672138814884'>
+    <name>pretaacomments_test:</name>
+    <title>pretaacomments_test:</title>
+    <test-cases>
+        <test-case start='1672138700343' status='passed' stop='1672138704992'>
+            <name>Invalid email validation</name>
+            <title>Invalid email validation</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1672138700348' status='passed' stop='1672138701199'>
+                    <name>I am on page "/login"</name>
+                    <title>I am on page "/login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672138701199' status='passed' stop='1672138701583'>
+                    <name>I fill field "[data-testid="email"]", "123@itobuz.com"</name>
+                    <title>I fill field "[data-testid="email"]", "123@itobuz.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672138701584' status='passed' stop='1672138701745'>
+                    <name>I click "[data-testid="continue-btn"]"</name>
+                    <title>I click "[data-testid="continue-btn"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672138701745' status='passed' stop='1672138702828'>
+                    <name>I see element "[data-testid="error-id"]"</name>
+                    <title>I see element "[data-testid="error-id"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672138702828' status='passed' stop='1672138704828'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672138704828' status='passed' stop='1672138704992'>
+                    <name>I clear field "[data-testid="email"]"</name>
+                    <title>I clear field "[data-testid="email"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1672138704996' status='failed' stop='1672138743854'>
+            <name>Password field blank validation</name>
+            <title>Password field blank validation</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1672138705001' status='passed' stop='1672138705449'>
+                    <name>I fill field "[data-testid="email"]", "admin@itobuz.com"</name>
+                    <title>I fill field "[data-testid="email"]", "admin@itobuz.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672138705449' status='passed' stop='1672138707023'>
+                    <name>I click "[data-testid="continue-btn"]"</name>
+                    <title>I click "[data-testid="continue-btn"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672138707023' status='passed' stop='1672138709024'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672138709024' status='failed' stop='1672138743853'>
+                    <name>I click "[data-testid="submit-btn"]"</name>
+                    <title>I click "[data-testid="submit-btn"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='6a59db83-da1b-4e9e-8864-591f1799ecbe-attachment.png' type='image/png' size='46154'/>
+            </attachments>
+            <failure>
+                <message>elementHandle.click: Timeout 5000ms exceeded.
+                =========================== logs ===========================
+                attempting click action
+                  waiting for element to be visible, enabled and stable
+                ============================================================</message>
+                <stack-trace>elementHandle.click: Timeout 5000ms exceeded.
+                =========================== logs ===========================
+                attempting click action
+                  waiting for element to be visible, enabled and stable
+                ============================================================
+                    at Playwright.proceedClick (/Users/macbook/Desktop/myfirstrepo/codeceptjs_practice/node_modules/codeceptjs/lib/helper/Playwright.js:2596:19)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1672138743965' status='failed' stop='1672138780007'>
+            <name>Email field blank validation</name>
+            <title>Email field blank validation</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1672138743975' status='passed' stop='1672138745203'>
+                    <name>I refresh page "/login"</name>
+                    <title>I refresh page "/login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672138745203' status='failed' stop='1672138780006'>
+                    <name>I click "[data-testid="continue-btn"]"</name>
+                    <title>I click "[data-testid="continue-btn"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='eaeb7511-1130-44a0-846f-39cf769a54c4-attachment.png' type='image/png' size='38729'/>
+            </attachments>
+            <failure>
+                <message>elementHandle.click: Timeout 5000ms exceeded.
+                =========================== logs ===========================
+                attempting click action
+                  waiting for element to be visible, enabled and stable
+                ============================================================</message>
+                <stack-trace>elementHandle.click: Timeout 5000ms exceeded.
+                =========================== logs ===========================
+                attempting click action
+                  waiting for element to be visible, enabled and stable
+                ============================================================
+                    at Playwright.proceedClick (/Users/macbook/Desktop/myfirstrepo/codeceptjs_practice/node_modules/codeceptjs/lib/helper/Playwright.js:2596:19)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1672138780076' status='failed' stop='1672138814809'>
+            <name>ForgotPwd_invalid email validation</name>
+            <title>ForgotPwd_invalid email validation</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1672138780083' status='failed' stop='1672138814809'>
+                    <name>I click "[href="/forgot_password"]"</name>
+                    <title>I click "[href="/forgot_password"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='8e80d9d4-6a98-4099-8ef6-4776535e2020-attachment.png' type='image/png' size='38729'/>
+            </attachments>
+            <failure>
+                <message>elementHandle.click: Timeout 5000ms exceeded.
+                =========================== logs ===========================
+                attempting click action
+                  waiting for element to be visible, enabled and stable
+                ============================================================</message>
+                <stack-trace>elementHandle.click: Timeout 5000ms exceeded.
+                =========================== logs ===========================
+                attempting click action
+                  waiting for element to be visible, enabled and stable
+                ============================================================
+                    at Playwright.proceedClick (/Users/macbook/Desktop/myfirstrepo/codeceptjs_practice/node_modules/codeceptjs/lib/helper/Playwright.js:2596:19)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
