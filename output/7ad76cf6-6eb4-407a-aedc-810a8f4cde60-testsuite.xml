@@ -1,0 +1,100 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672139246053' stop='1672139258027'>
+    <name>setting_test:</name>
+    <title>setting_test:</title>
+    <test-cases>
+        <test-case start='1672139246053' status='pending' stop='1672139246053'>
+            <name>go to users</name>
+            <title>go to users</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1672139246731' status='passed' stop='1672139258012'>
+            <name>go to setting</name>
+            <title>go to setting</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1672139247283' status='passed' stop='1672139250276'>
+                    <name>I am on page "https://pretaa-staging.netlify.app/login"</name>
+                    <title>I am on page "https://pretaa-staging.netlify.app/login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672139250277' status='passed' stop='1672139250288'>
+                    <name>I see "Continue"</name>
+                    <title>I see "Continue"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672139250288' status='passed' stop='1672139250766'>
+                    <name>I fill field "[data-testid="email"]", "jiniya+1+admin@itobuz.com"</name>
+                    <title>I fill field "[data-testid="email"]", "jiniya+1+admin@itobuz.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672139250768' status='passed' stop='1672139250992'>
+                    <name>I click "[data-testid="continue-btn"]"</name>
+                    <title>I click "[data-testid="continue-btn"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672139250993' status='passed' stop='1672139253530'>
+                    <name>I fill field "[data-testid="password"]", "Password@50"</name>
+                    <title>I fill field "[data-testid="password"]", "Password@50"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672139253532' status='passed' stop='1672139253542'>
+                    <name>I see "Show Password"</name>
+                    <title>I see "Show Password"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672139253542' status='passed' stop='1672139254544'>
+                    <name>I wait 1</name>
+                    <title>I wait 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672139254544' status='passed' stop='1672139254671'>
+                    <name>I click "[type="button"]"</name>
+                    <title>I click "[type="button"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672139254672' status='passed' stop='1672139254840'>
+                    <name>I click "[data-testid="submit-btn"]"</name>
+                    <title>I click "[data-testid="submit-btn"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672139254840' status='passed' stop='1672139256843'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672139256843' status='passed' stop='1672139257010'>
+                    <name>I click "[href="/settings/preferences/profile"]"</name>
+                    <title>I click "[href="/settings/preferences/profile"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672139257010' status='passed' stop='1672139258011'>
+                    <name>I wait 1</name>
+                    <title>I wait 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

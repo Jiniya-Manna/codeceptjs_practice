@@ -9,7 +9,7 @@ Scenario('go to setting', async ({ I }) => {
 Scenario('go to admin', async ({ I }) => {
     I.click('.pl-4 div:nth-child(4) h3');
 });
-Scenario('go to users', async ({ I }) => {
+Scenario.skip('go to users', async ({ I }) => {
     I.click('[href="/settings/admin/user-list"]');
     I.wait(20);
     let  words = faker.random.words();
@@ -19,7 +19,7 @@ Scenario('go to users', async ({ I }) => {
     I.wait(2);
 });
 
-Scenario.skip('go to group search',async ({ I }) => { 
+Scenario('go to group search',async ({ I }) => { 
     //I.limitTime(5).click('[href="/settings/admin/user-list"]')
     I.click('[href="/settings/admin/user-list"]');
     I.wait(20);
