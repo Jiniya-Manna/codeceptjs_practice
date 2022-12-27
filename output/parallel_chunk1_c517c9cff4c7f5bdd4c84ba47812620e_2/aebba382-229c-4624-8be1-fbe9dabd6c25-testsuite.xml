@@ -1,0 +1,145 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672144840760' stop='1672144889754'>
+    <name>pretaafeedback_test:</name>
+    <title>pretaafeedback_test:</title>
+    <test-cases>
+        <test-case start='1672144840760' status='failed' stop='1672144889634'>
+            <name>feedback_norating</name>
+            <title>feedback_norating</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1672144840765' status='passed' stop='1672144841993'>
+                    <name>I am on page "/login"</name>
+                    <title>I am on page "/login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672144841993' status='passed' stop='1672144842865'>
+                    <name>I am on page "/login"</name>
+                    <title>I am on page "/login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672144842865' status='passed' stop='1672144842876'>
+                    <name>I see element "[src="./pretaa-logo.png"]"</name>
+                    <title>I see element "[src="./pretaa-logo.png"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672144842876' status='passed' stop='1672144843457'>
+                    <name>I fill field "[data-testid="email"]", "jiniya+1+admin@itobuz.com"</name>
+                    <title>I fill field "[data-testid="email"]", "jiniya+1+admin@itobuz.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672144843460' status='passed' stop='1672144843609'>
+                    <name>I click "[data-testid="continue-btn"]"</name>
+                    <title>I click "[data-testid="continue-btn"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672144843609' status='passed' stop='1672144844967'>
+                    <name>I fill field "[data-testid="password"]", "Password@50"</name>
+                    <title>I fill field "[data-testid="password"]", "Password@50"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672144844968' status='passed' stop='1672144844977'>
+                    <name>I see "Show Password"</name>
+                    <title>I see "Show Password"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672144844977' status='passed' stop='1672144845978'>
+                    <name>I wait 1</name>
+                    <title>I wait 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672144845979' status='passed' stop='1672144846133'>
+                    <name>I click "[type="button"]"</name>
+                    <title>I click "[type="button"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672144846134' status='passed' stop='1672144846290'>
+                    <name>I click "[data-testid="submit-btn"]"</name>
+                    <title>I click "[data-testid="submit-btn"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672144846290' status='passed' stop='1672144849290'>
+                    <name>I wait 3</name>
+                    <title>I wait 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672144849290' status='passed' stop='1672144849406'>
+                    <name>I see "Events"</name>
+                    <title>I see "Events"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672144849406' status='passed' stop='1672144851541'>
+                    <name>I click "[data-testid="feedback-link"]"</name>
+                    <title>I click "[data-testid="feedback-link"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672144851541' status='passed' stop='1672144851553'>
+                    <name>I see "Feedback"</name>
+                    <title>I see "Feedback"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672144851553' status='passed' stop='1672144852553'>
+                    <name>I wait 1</name>
+                    <title>I wait 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672144852554' status='passed' stop='1672144852566'>
+                    <name>I see "Feedback"</name>
+                    <title>I see "Feedback"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672144852567' status='passed' stop='1672144854568'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672144854568' status='passed' stop='1672144854893'>
+                    <name>I fill field "[data-test-id="feedback-comment"]", "test comment"</name>
+                    <title>I fill field "[data-test-id="feedback-comment"]", "test comment"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672144854893' status='failed' stop='1672144889633'>
+                    <name>I click "[data-testid="save-btn"]"</name>
+                    <title>I click "[data-testid="save-btn"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='5720e61a-e1ab-4c00-8476-168d53f4798d-attachment.png' type='image/png' size='66472'/>
+            </attachments>
+            <failure>
+                <message>elementHandle.click: Timeout 5000ms exceeded.
+                =========================== logs ===========================
+                attempting click action
+                  waiting for element to be visible, enabled and stable
+                ============================================================</message>
+                <stack-trace>elementHandle.click: Timeout 5000ms exceeded.
+                =========================== logs ===========================
+                attempting click action
+                  waiting for element to be visible, enabled and stable
+                ============================================================
+                    at Playwright.proceedClick (/Users/macbook/Desktop/myfirstrepo/codeceptjs_practice/node_modules/codeceptjs/lib/helper/Playwright.js:2596:19)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

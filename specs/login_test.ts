@@ -1,5 +1,5 @@
 
-import loginPage  from "../pages/login";
+/*import loginPage  from "../pages/login";
 import feedbackPage from "../pages/feedback";
 import submitPage from "../pages/submit";
 
@@ -24,4 +24,4 @@ Scenario('go to feedback', ({I}) => {
     submitPage.submit()
 
     });
-
+*/
