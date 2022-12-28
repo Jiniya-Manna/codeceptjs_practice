@@ -1,0 +1,34 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672146153389' stop='1672146160702'>
+    <name>login:</name>
+    <title>login:</title>
+    <test-cases>
+        <test-case start='1672146153389' status='failed' stop='1672146160604'>
+            <name>PretaaLogin_test</name>
+            <title>PretaaLogin_test</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1672146153390' status='passed' stop='1672146155901'>
+                    <name>I am on page "/login"</name>
+                    <title>I am on page "/login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672146155901' status='failed' stop='1672146160604'>
+                    <name>I see "Continue"</name>
+                    <title>I see "Continue"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='0549d679-8637-4181-9234-73c923fad8b2-attachment.png' type='image/png' size='105920'/>
+            </attachments>
+            <failure>
+                <message></message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

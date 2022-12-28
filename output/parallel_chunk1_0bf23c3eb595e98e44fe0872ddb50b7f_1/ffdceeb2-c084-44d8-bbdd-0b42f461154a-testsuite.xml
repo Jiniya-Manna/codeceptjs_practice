@@ -1,0 +1,115 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672145058680' stop='1672145077959'>
+    <name>noteCreated:</name>
+    <title>noteCreated:</title>
+    <test-cases>
+        <test-case start='1672145059442' status='failed' stop='1672145077842'>
+            <name>go to note</name>
+            <title>go to note</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1672145059929' status='passed' stop='1672145063607'>
+                    <name>I am on page "/login"</name>
+                    <title>I am on page "/login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672145063608' status='passed' stop='1672145063614'>
+                    <name>I see "Continue"</name>
+                    <title>I see "Continue"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672145063614' status='passed' stop='1672145064075'>
+                    <name>I fill field "[data-testid="email"]", "jiniya+1+admin@itobuz.com"</name>
+                    <title>I fill field "[data-testid="email"]", "jiniya+1+admin@itobuz.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672145064076' status='passed' stop='1672145064293'>
+                    <name>I click "[data-testid="continue-btn"]"</name>
+                    <title>I click "[data-testid="continue-btn"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672145064293' status='passed' stop='1672145065631'>
+                    <name>I fill field "[data-testid="password"]", "Password@50"</name>
+                    <title>I fill field "[data-testid="password"]", "Password@50"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672145065631' status='passed' stop='1672145065640'>
+                    <name>I see "Show Password"</name>
+                    <title>I see "Show Password"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672145065640' status='passed' stop='1672145066642'>
+                    <name>I wait 1</name>
+                    <title>I wait 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672145066642' status='passed' stop='1672145066763'>
+                    <name>I click "[type="button"]"</name>
+                    <title>I click "[type="button"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672145066763' status='passed' stop='1672145066933'>
+                    <name>I click "[data-testid="submit-btn"]"</name>
+                    <title>I click "[data-testid="submit-btn"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672145066933' status='passed' stop='1672145069935'>
+                    <name>I wait 3</name>
+                    <title>I wait 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672145069936' status='passed' stop='1672145070098'>
+                    <name>I click "[href="/companies/list"]"</name>
+                    <title>I click "[href="/companies/list"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672145070098' status='passed' stop='1672145073100'>
+                    <name>I wait 3</name>
+                    <title>I wait 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672145073100' status='passed' stop='1672145073154'>
+                    <name>I grab text from all "[data-test-id="company-row"]"</name>
+                    <title>I grab text from all "[data-test-id="company-row"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672145073156' status='failed' stop='1672145077841'>
+                    <name>I click "[data-test-id="floating-btn"]"</name>
+                    <title>I click "[data-test-id="floating-btn"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672145077847' status='undefined'>
+                    <name>I fill field "[data-testid="search-input"]", "Altenwerth, Zieme and Predovic Company 29"</name>
+                    <title>I fill field "[data-testid="search-input"]", "Altenwerth, Zieme and Predovic Company 29"</title>
+                    <attachments>
+                        <attachment title='Last Seen Screenshot' source='6dd05888-5eb1-42fb-b710-523a0bbb2b4a-attachment.png' type='image/png' size='58919'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Clickable element "[data-test-id="floating-btn"]" was not found by text|CSS|XPath</message>
+                <stack-trace>Error: Clickable element "[data-test-id="floating-btn"]" was not found by text|CSS|XPath
+                    at new ElementNotFound (/Users/itobuz/Desktop/macbook/codeceptjs_practice/node_modules/codeceptjs/lib/helper/errors/ElementNotFound.js:14:11)
+                    at assertElementExists (/Users/itobuz/Desktop/macbook/codeceptjs_practice/node_modules/codeceptjs/lib/helper/Playwright.js:2811:11)
+                    at Playwright.proceedClick (/Users/itobuz/Desktop/macbook/codeceptjs_practice/node_modules/codeceptjs/lib/helper/Playwright.js:2587:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

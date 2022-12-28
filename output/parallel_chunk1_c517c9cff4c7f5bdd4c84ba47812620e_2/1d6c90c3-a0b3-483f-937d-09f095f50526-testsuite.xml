@@ -1,0 +1,34 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672146392915' stop='1672146400831'>
+    <name>creategroup:</name>
+    <title>creategroup:</title>
+    <test-cases>
+        <test-case start='1672146392915' status='failed' stop='1672146400749'>
+            <name>go to group creation</name>
+            <title>go to group creation</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1672146392918' status='passed' stop='1672146396043'>
+                    <name>I am on page "/login"</name>
+                    <title>I am on page "/login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672146396043' status='failed' stop='1672146400749'>
+                    <name>I see "Continue"</name>
+                    <title>I see "Continue"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='dffebeae-ec3d-40ac-87df-aa8be1d6a37e-attachment.png' type='image/png' size='118809'/>
+            </attachments>
+            <failure>
+                <message></message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

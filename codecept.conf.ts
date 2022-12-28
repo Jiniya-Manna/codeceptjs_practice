@@ -19,19 +19,25 @@ export const config: CodeceptJS.MainConfig = {
       browser: 'chromium',
       restart: "session",
       keepBrowserState: true,
-      keepCookies: true
+      keepCookies: true,
     }
   },
-  include: {
+multiple : {
+  parallel: {
+    chunks : 1,
+    browsers : ["chromium" , "firefox"]
+  }
+},
+ include: {
     "I": "./steps_file",
-    "loginPage": "./pages/login.ts",
-    "validCompanySearchPage": "./pages/validCompanySearch.ts",
-    "invalidCompanySearchPage": "./pages/invalidCompanySearch.ts",
-    "invalidPage": "./pages/invalid.ts",
-    "settingpagePage": "./pages/settingpage.ts",
-    "notecreatedPage": "./pages/notecreated.ts",
-    "companynotePage": "./pages/companynote.ts"
+    "pagesPage": "./pages/pages.ts",
+    "datadrivenPage": "./pages/datadriven.ts"
   },
   name: 'codeceptjs_practice',
-  fullPromiseBased: true
+  fullPromiseBased: true,
+  plugins:{
+    allure : {
+     enabled : true
+    }
 }
+};

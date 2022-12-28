@@ -1,0 +1,365 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672146331631' stop='1672146392200'>
+    <name>noteCreated:</name>
+    <title>noteCreated:</title>
+    <test-cases>
+        <test-case start='1672146332456' status='failed' stop='1672146392072'>
+            <name>go to note</name>
+            <title>go to note</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1672146332968' status='passed' stop='1672146334650'>
+                    <name>I am on page "/login"</name>
+                    <title>I am on page "/login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672146334651' status='passed' stop='1672146334657'>
+                    <name>I see "Continue"</name>
+                    <title>I see "Continue"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672146334658' status='passed' stop='1672146335118'>
+                    <name>I fill field "[data-testid="email"]", "jiniya+1+admin@itobuz.com"</name>
+                    <title>I fill field "[data-testid="email"]", "jiniya+1+admin@itobuz.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672146335118' status='passed' stop='1672146335331'>
+                    <name>I click "[data-testid="continue-btn"]"</name>
+                    <title>I click "[data-testid="continue-btn"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672146335331' status='passed' stop='1672146336651'>
+                    <name>I fill field "[data-testid="password"]", "Password@50"</name>
+                    <title>I fill field "[data-testid="password"]", "Password@50"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672146336651' status='passed' stop='1672146336654'>
+                    <name>I see "Show Password"</name>
+                    <title>I see "Show Password"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672146336654' status='passed' stop='1672146337656'>
+                    <name>I wait 1</name>
+                    <title>I wait 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672146337656' status='passed' stop='1672146337796'>
+                    <name>I click "[type="button"]"</name>
+                    <title>I click "[type="button"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672146337796' status='passed' stop='1672146337964'>
+                    <name>I click "[data-testid="submit-btn"]"</name>
+                    <title>I click "[data-testid="submit-btn"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672146337964' status='passed' stop='1672146340965'>
+                    <name>I wait 3</name>
+                    <title>I wait 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672146340965' status='passed' stop='1672146341117'>
+                    <name>I click "[href="/companies/list"]"</name>
+                    <title>I click "[href="/companies/list"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672146341117' status='passed' stop='1672146344119'>
+                    <name>I wait 3</name>
+                    <title>I wait 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672146344120' status='passed' stop='1672146344178'>
+                    <name>I grab text from all "[data-test-id="company-row"]"</name>
+                    <title>I grab text from all "[data-test-id="company-row"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672146344181' status='passed' stop='1672146344732'>
+                    <name>I fill field "[data-testid="search-input"]", "Beer, Schultz and Littel Company 64"</name>
+                    <title>I fill field "[data-testid="search-input"]", "Beer, Schultz and Littel Company 64"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672146344732' status='passed' stop='1672146346733'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672146346733' status='passed' stop='1672146346878'>
+                    <name>I click "Beer, Schultz and Littel Company 64"</name>
+                    <title>I click "Beer, Schultz and Littel Company 64"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672146346878' status='passed' stop='1672146347373'>
+                    <name>I see "Details"</name>
+                    <title>I see "Details"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672146347373' status='passed' stop='1672146350374'>
+                    <name>I wait 3</name>
+                    <title>I wait 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672146350375' status='passed' stop='1672146350519'>
+                    <name>I click "[data-test-id="floating-btn"]"</name>
+                    <title>I click "[data-test-id="floating-btn"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672146350519' status='passed' stop='1672146352519'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672146352519' status='passed' stop='1672146352698'>
+                    <name>I click "[data-testid="note-create"]"</name>
+                    <title>I click "[data-testid="note-create"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672146352698' status='passed' stop='1672146354699'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672146354700' status='passed' stop='1672146354900'>
+                    <name>I fill field "[name="subject"]", "Pretaa"</name>
+                    <title>I fill field "[name="subject"]", "Pretaa"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672146354900' status='passed' stop='1672146355310'>
+                    <name>I fill field "[data-placeholder="Add Details"]", " Preta app is good "</name>
+                    <title>I fill field "[data-placeholder="Add Details"]", " Preta app is good "</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672146355310' status='passed' stop='1672146357312'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672146357312' status='failed' stop='1672146392071'>
+                    <name>I click "[type="submit"]"</name>
+                    <title>I click "[type="submit"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='f949b037-d058-411f-bc8b-2706fdee28e0-attachment.png' type='image/png' size='79887'/>
+            </attachments>
+            <failure>
+                <message>elementHandle.click: Timeout 5000ms exceeded.
+                =========================== logs ===========================
+                attempting click action
+                  waiting for element to be visible, enabled and stable
+                  element is visible, enabled and stable
+                  scrolling into view if needed
+                  done scrolling
+                  &lt;div tabindex="-1" data-popup="modal" data-testid="ov…>…&lt;/div> from &lt;div id="popup-root">…&lt;/div> subtree intercepts pointer events
+                retrying click action, attempt #1
+                  waiting for element to be visible, enabled and stable
+                  element is visible, enabled and stable
+                  scrolling into view if needed
+                  done scrolling
+                  &lt;div tabindex="-1" data-popup="modal" data-testid="ov…>…&lt;/div> from &lt;div id="popup-root">…&lt;/div> subtree intercepts pointer events
+                retrying click action, attempt #2
+                  waiting 20ms
+                  waiting for element to be visible, enabled and stable
+                  element is visible, enabled and stable
+                  scrolling into view if needed
+                  done scrolling
+                  &lt;div tabindex="-1" data-popup="modal" data-testid="ov…>…&lt;/div> from &lt;div id="popup-root">…&lt;/div> subtree intercepts pointer events
+                retrying click action, attempt #3
+                  waiting 100ms
+                  waiting for element to be visible, enabled and stable
+                  element is visible, enabled and stable
+                  scrolling into view if needed
+                  done scrolling
+                  &lt;div tabindex="-1" data-popup="modal" data-testid="ov…>…&lt;/div> from &lt;div id="popup-root">…&lt;/div> subtree intercepts pointer events
+                retrying click action, attempt #4
+                  waiting 100ms
+                  waiting for element to be visible, enabled and stable
+                  element is visible, enabled and stable
+                  scrolling into view if needed
+                  done scrolling
+                  &lt;div tabindex="-1" data-popup="modal" data-testid="ov…>…&lt;/div> from &lt;div id="popup-root">…&lt;/div> subtree intercepts pointer events
+                retrying click action, attempt #5
+                  waiting 500ms
+                  waiting for element to be visible, enabled and stable
+                  element is visible, enabled and stable
+                  scrolling into view if needed
+                  done scrolling
+                  &lt;div tabindex="-1" data-popup="modal" data-testid="ov…>…&lt;/div> from &lt;div id="popup-root">…&lt;/div> subtree intercepts pointer events
+                retrying click action, attempt #6
+                  waiting 500ms
+                  waiting for element to be visible, enabled and stable
+                  element is visible, enabled and stable
+                  scrolling into view if needed
+                  done scrolling
+                  &lt;div tabindex="-1" data-popup="modal" data-testid="ov…>…&lt;/div> from &lt;div id="popup-root">…&lt;/div> subtree intercepts pointer events
+                retrying click action, attempt #7
+                  waiting 500ms
+                  waiting for element to be visible, enabled and stable
+                  element is visible, enabled and stable
+                  scrolling into view if needed
+                  done scrolling
+                  &lt;div tabindex="-1" data-popup="modal" data-testid="ov…>…&lt;/div> from &lt;div id="popup-root">…&lt;/div> subtree intercepts pointer events
+                retrying click action, attempt #8
+                  waiting 500ms
+                  waiting for element to be visible, enabled and stable
+                  element is visible, enabled and stable
+                  scrolling into view if needed
+                  done scrolling
+                  &lt;div tabindex="-1" data-popup="modal" data-testid="ov…>…&lt;/div> from &lt;div id="popup-root">…&lt;/div> subtree intercepts pointer events
+                retrying click action, attempt #9
+                  waiting 500ms
+                  waiting for element to be visible, enabled and stable
+                  element is visible, enabled and stable
+                  scrolling into view if needed
+                  done scrolling
+                  &lt;div tabindex="-1" data-popup="modal" data-testid="ov…>…&lt;/div> from &lt;div id="popup-root">…&lt;/div> subtree intercepts pointer events
+                retrying click action, attempt #10
+                  waiting 500ms
+                  waiting for element to be visible, enabled and stable
+                  element is visible, enabled and stable
+                  scrolling into view if needed
+                  done scrolling
+                  &lt;div tabindex="-1" data-popup="modal" data-testid="ov…>…&lt;/div> from &lt;div id="popup-root">…&lt;/div> subtree intercepts pointer events
+                retrying click action, attempt #11
+                  waiting 500ms
+                  waiting for element to be visible, enabled and stable
+                  element is visible, enabled and stable
+                  scrolling into view if needed
+                  done scrolling
+                  &lt;div tabindex="-1" data-popup="modal" data-testid="ov…>…&lt;/div> from &lt;div id="popup-root">…&lt;/div> subtree intercepts pointer events
+                retrying click action, attempt #12
+                  waiting 500ms
+                  waiting for element to be visible, enabled and stable
+                  element is visible, enabled and stable
+                  scrolling into view if needed
+                  done scrolling
+                  &lt;div tabindex="-1" data-popup="modal" data-testid="ov…>…&lt;/div> from &lt;div id="popup-root">…&lt;/div> subtree intercepts pointer events
+                retrying click action, attempt #13
+                  waiting 500ms
+                ============================================================</message>
+                <stack-trace>elementHandle.click: Timeout 5000ms exceeded.
+                =========================== logs ===========================
+                attempting click action
+                  waiting for element to be visible, enabled and stable
+                  element is visible, enabled and stable
+                  scrolling into view if needed
+                  done scrolling
+                  &lt;div tabindex="-1" data-popup="modal" data-testid="ov…>…&lt;/div> from &lt;div id="popup-root">…&lt;/div> subtree intercepts pointer events
+                retrying click action, attempt #1
+                  waiting for element to be visible, enabled and stable
+                  element is visible, enabled and stable
+                  scrolling into view if needed
+                  done scrolling
+                  &lt;div tabindex="-1" data-popup="modal" data-testid="ov…>…&lt;/div> from &lt;div id="popup-root">…&lt;/div> subtree intercepts pointer events
+                retrying click action, attempt #2
+                  waiting 20ms
+                  waiting for element to be visible, enabled and stable
+                  element is visible, enabled and stable
+                  scrolling into view if needed
+                  done scrolling
+                  &lt;div tabindex="-1" data-popup="modal" data-testid="ov…>…&lt;/div> from &lt;div id="popup-root">…&lt;/div> subtree intercepts pointer events
+                retrying click action, attempt #3
+                  waiting 100ms
+                  waiting for element to be visible, enabled and stable
+                  element is visible, enabled and stable
+                  scrolling into view if needed
+                  done scrolling
+                  &lt;div tabindex="-1" data-popup="modal" data-testid="ov…>…&lt;/div> from &lt;div id="popup-root">…&lt;/div> subtree intercepts pointer events
+                retrying click action, attempt #4
+                  waiting 100ms
+                  waiting for element to be visible, enabled and stable
+                  element is visible, enabled and stable
+                  scrolling into view if needed
+                  done scrolling
+                  &lt;div tabindex="-1" data-popup="modal" data-testid="ov…>…&lt;/div> from &lt;div id="popup-root">…&lt;/div> subtree intercepts pointer events
+                retrying click action, attempt #5
+                  waiting 500ms
+                  waiting for element to be visible, enabled and stable
+                  element is visible, enabled and stable
+                  scrolling into view if needed
+                  done scrolling
+                  &lt;div tabindex="-1" data-popup="modal" data-testid="ov…>…&lt;/div> from &lt;div id="popup-root">…&lt;/div> subtree intercepts pointer events
+                retrying click action, attempt #6
+                  waiting 500ms
+                  waiting for element to be visible, enabled and stable
+                  element is visible, enabled and stable
+                  scrolling into view if needed
+                  done scrolling
+                  &lt;div tabindex="-1" data-popup="modal" data-testid="ov…>…&lt;/div> from &lt;div id="popup-root">…&lt;/div> subtree intercepts pointer events
+                retrying click action, attempt #7
+                  waiting 500ms
+                  waiting for element to be visible, enabled and stable
+                  element is visible, enabled and stable
+                  scrolling into view if needed
+                  done scrolling
+                  &lt;div tabindex="-1" data-popup="modal" data-testid="ov…>…&lt;/div> from &lt;div id="popup-root">…&lt;/div> subtree intercepts pointer events
+                retrying click action, attempt #8
+                  waiting 500ms
+                  waiting for element to be visible, enabled and stable
+                  element is visible, enabled and stable
+                  scrolling into view if needed
+                  done scrolling
+                  &lt;div tabindex="-1" data-popup="modal" data-testid="ov…>…&lt;/div> from &lt;div id="popup-root">…&lt;/div> subtree intercepts pointer events
+                retrying click action, attempt #9
+                  waiting 500ms
+                  waiting for element to be visible, enabled and stable
+                  element is visible, enabled and stable
+                  scrolling into view if needed
+                  done scrolling
+                  &lt;div tabindex="-1" data-popup="modal" data-testid="ov…>…&lt;/div> from &lt;div id="popup-root">…&lt;/div> subtree intercepts pointer events
+                retrying click action, attempt #10
+                  waiting 500ms
+                  waiting for element to be visible, enabled and stable
+                  element is visible, enabled and stable
+                  scrolling into view if needed
+                  done scrolling
+                  &lt;div tabindex="-1" data-popup="modal" data-testid="ov…>…&lt;/div> from &lt;div id="popup-root">…&lt;/div> subtree intercepts pointer events
+                retrying click action, attempt #11
+                  waiting 500ms
+                  waiting for element to be visible, enabled and stable
+                  element is visible, enabled and stable
+                  scrolling into view if needed
+                  done scrolling
+                  &lt;div tabindex="-1" data-popup="modal" data-testid="ov…>…&lt;/div> from &lt;div id="popup-root">…&lt;/div> subtree intercepts pointer events
+                retrying click action, attempt #12
+                  waiting 500ms
+                  waiting for element to be visible, enabled and stable
+                  element is visible, enabled and stable
+                  scrolling into view if needed
+                  done scrolling
+                  &lt;div tabindex="-1" data-popup="modal" data-testid="ov…>…&lt;/div> from &lt;div id="popup-root">…&lt;/div> subtree intercepts pointer events
+                retrying click action, attempt #13
+                  waiting 500ms
+                ============================================================
+                    at Playwright.proceedClick (/Users/itobuz/Desktop/macbook/codeceptjs_practice/node_modules/codeceptjs/lib/helper/Playwright.js:2596:19)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
