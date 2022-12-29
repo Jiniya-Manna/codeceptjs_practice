@@ -16,6 +16,7 @@ export const config: CodeceptJS.MainConfig = {
       show: true,
       browser: 'chromium',
 <<<<<<< HEAD
+<<<<<<< HEAD
       restart: "session",
       keepBrowserState: true,
 <<<<<<< HEAD
@@ -28,18 +29,30 @@ export const config: CodeceptJS.MainConfig = {
       keepBrowserState:true,
       keepCookies:false
 >>>>>>> qa/notecreated
+=======
+      restart: "session",
+      keepBrowserState: true,
+      keepCookies: true,
+>>>>>>> qa/setting
     }
   },
 multiple : {
   parallel: {
+<<<<<<< HEAD
     chunks : 2,
     browser : 'chromium',
     browsers: 'firefox',
     windowSize : 'maximize',
+=======
+    chunks : 1,
+    browsers : ["chromium" , "firefox"],
+    windowSize : 'maximize'
+>>>>>>> qa/setting
   }
 },
  include: {
     "I": "./steps_file",
+<<<<<<< HEAD
 <<<<<<< HEAD
     "loginPage": "./pages/login.ts",
     "validCompanySearchPage": "./pages/validCompanySearch.ts",
@@ -57,10 +70,15 @@ multiple : {
 =======
     "invalidPage": "./pages/invalid.ts"
 >>>>>>> qa/notecreated
+=======
+    "pagesPage": "./pages/pages.ts",
+    "datadrivenPage": "./pages/datadriven.ts"
+>>>>>>> qa/setting
   },
   name: 'codeceptjs_practice',
   fullPromiseBased: true,
   plugins:{
+<<<<<<< HEAD
 <<<<<<< HEAD
     allure: {
       enabled:true
@@ -73,10 +91,15 @@ multiple : {
   }
 }
 =======
+=======
+>>>>>>> qa/setting
     allure : {
      enabled : true
     }
 }
 };
 
+<<<<<<< HEAD
 >>>>>>> qa/newcompanySearch
+=======
+>>>>>>> qa/setting

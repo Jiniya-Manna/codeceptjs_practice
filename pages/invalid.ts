@@ -1,17 +1,21 @@
+import  Locator  from "codeceptjs";
 const { I } = inject();
 var faker = require ('faker')
 export = {
+  locator: {
+    companyListlink:'[href="/companies/list"]',
+    searchBar: '[data-testid="search-input"]',
+    logOut:'[href="/logout"]',
+  },
 
-  invalid() {
-    I.click('[href="/companies/list"]');
+  invalidA() {
+    I.click(this.locator.companyListlink);
     I.wait(3)
     let  words = faker.random.words();
     console.log("output",words);
-    I.fillField('[data-testid="search-input"]' , words);
+    I.fillField(this.locator.searchBar , words);
     I.see("No results");
-    After(async ({I}) => { 
-    I.click('[href="/logout"]');
-    });
+    I.click(this.locator.logOut);
     I.wait(2);
   }
 }
