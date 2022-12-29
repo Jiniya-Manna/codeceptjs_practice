@@ -30,7 +30,8 @@ export const config: CodeceptJS.MainConfig = {
     "invalidPage": "./pages/invalid.ts",
     "settingpagePage": "./pages/settingpage.ts",
     "companynotePage": "./pages/companynote.ts",
-    "datadrivenPage": "./pages/datadriven.ts"
+    "datadrivenPage": "./pages/datadriven.ts",
+    "launchPage": "./pages/launch.ts"
   },
   name: 'codeceptjs_practice',
   fullPromiseBased: true
