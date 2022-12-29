@@ -5,8 +5,6 @@ import {
 // turn on headless mode when running with HEADLESS=true environment variable
 // export HEADLESS=true && npx codeceptjs run
 setHeadlessWhen(process.env.HEADLESS);
-
-// enable all common plugins https://github.com/codeceptjs/configure#setcommonplugins
 setCommonPlugins();
 
 export const config: CodeceptJS.MainConfig = {
@@ -19,11 +17,24 @@ export const config: CodeceptJS.MainConfig = {
       browser: 'chromium',
       restart: "session",
       keepBrowserState: true,
+<<<<<<< HEAD
       keepCookies: true
+=======
+      keepCookies: true,
+>>>>>>> qa/newcompanySearch
     }
   },
-  include: {
+multiple : {
+  parallel: {
+    chunks : 2,
+    browser : 'chromium',
+    browsers: 'firefox',
+    windowSize : 'maximize',
+  }
+},
+ include: {
     "I": "./steps_file",
+<<<<<<< HEAD
     "loginPage": "./pages/login.ts",
     "validCompanySearchPage": "./pages/validCompanySearch.ts",
     "invalidCompanySearchPage": "./pages/invalidCompanySearch.ts",
@@ -32,10 +43,15 @@ export const config: CodeceptJS.MainConfig = {
     "companynotePage": "./pages/companynote.ts",
     "datadrivenPage": "./pages/datadriven.ts",
     "launchPage": "./pages/launch.ts"
+=======
+    "pagesPage": "./pages/pages.ts",
+    "datadrivenPage": "./pages/datadriven.ts"
+>>>>>>> qa/newcompanySearch
   },
   name: 'codeceptjs_practice',
   fullPromiseBased: true,
   plugins:{
+<<<<<<< HEAD
     allure: {
       enabled:true
     }
@@ -46,3 +62,11 @@ export const config: CodeceptJS.MainConfig = {
     true
   }
 }
+=======
+    allure : {
+     enabled : true
+    }
+}
+};
+
+>>>>>>> qa/newcompanySearch

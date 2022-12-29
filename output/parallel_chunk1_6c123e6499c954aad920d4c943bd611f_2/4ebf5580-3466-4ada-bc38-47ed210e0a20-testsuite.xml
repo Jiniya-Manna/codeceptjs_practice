@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672132885213' stop='1672132915239'>
+    <name>invalidSearch:</name>
+    <title>invalidSearch:</title>
+    <test-cases>
+        <test-case start='1672132885214' status='failed' stop='1672132915230'>
+            <name>invalid company search</name>
+            <title>invalid company search</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1672132915229' status='failed' stop='1672132915229'>
+                    <name>I am on page "/login"</name>
+                    <title>I am on page "/login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot open pages inside an Electron container</message>
+                <stack-trace>Error: Cannot open pages inside an Electron container
+                    at Playwright.amOnPage (/Users/itobuz/Desktop/macbook/codeceptjs_practice/node_modules/codeceptjs/lib/helper/Playwright.js:820:13)
+                    at Step.run (/Users/itobuz/Desktop/macbook/codeceptjs_practice/node_modules/codeceptjs/lib/step.js:122:47)
+                    at /Users/itobuz/Desktop/macbook/codeceptjs_practice/node_modules/codeceptjs/lib/actor.js:134:23</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
