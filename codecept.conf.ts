@@ -15,6 +15,7 @@ export const config: CodeceptJS.MainConfig = {
       url: 'https://pretaa-staging.netlify.app',
       show: true,
       browser: 'chromium',
+<<<<<<< HEAD
       restart: "session",
       keepBrowserState: true,
 <<<<<<< HEAD
@@ -22,6 +23,11 @@ export const config: CodeceptJS.MainConfig = {
 =======
       keepCookies: true,
 >>>>>>> qa/newcompanySearch
+=======
+      restart:"session",
+      keepBrowserState:true,
+      keepCookies:false
+>>>>>>> qa/notecreated
     }
   },
 multiple : {
@@ -37,6 +43,7 @@ multiple : {
 <<<<<<< HEAD
     "loginPage": "./pages/login.ts",
     "validCompanySearchPage": "./pages/validCompanySearch.ts",
+<<<<<<< HEAD
     "invalidCompanySearchPage": "./pages/invalidCompanySearch.ts",
     "invalidPage": "./pages/invalid.ts",
     "settingpagePage": "./pages/settingpage.ts",
@@ -47,6 +54,9 @@ multiple : {
     "pagesPage": "./pages/pages.ts",
     "datadrivenPage": "./pages/datadriven.ts"
 >>>>>>> qa/newcompanySearch
+=======
+    "invalidPage": "./pages/invalid.ts"
+>>>>>>> qa/notecreated
   },
   name: 'codeceptjs_practice',
   fullPromiseBased: true,
