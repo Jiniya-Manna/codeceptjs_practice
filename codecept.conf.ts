@@ -15,91 +15,37 @@ export const config: CodeceptJS.MainConfig = {
       url: 'https://pretaa-staging.netlify.app',
       show: true,
       browser: 'chromium',
-<<<<<<< HEAD
-<<<<<<< HEAD
-      restart: "session",
-      keepBrowserState: true,
-<<<<<<< HEAD
-      keepCookies: true
-=======
-      keepCookies: true,
->>>>>>> qa/newcompanySearch
-=======
-      restart:"session",
-      keepBrowserState:true,
-      keepCookies:false
->>>>>>> qa/notecreated
-=======
       restart: "session",
       keepBrowserState: true,
       keepCookies: true,
->>>>>>> qa/setting
+
     }
   },
 multiple : {
   parallel: {
-<<<<<<< HEAD
     chunks : 2,
     browser : 'chromium',
     browsers: 'firefox',
     windowSize : 'maximize',
-=======
-    chunks : 1,
-    browsers : ["chromium" , "firefox"],
-    windowSize : 'maximize'
->>>>>>> qa/setting
   }
 },
  include: {
     "I": "./steps_file",
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "loginPage": "./pages/login.ts",
-    "validCompanySearchPage": "./pages/validCompanySearch.ts",
-<<<<<<< HEAD
-    "invalidCompanySearchPage": "./pages/invalidCompanySearch.ts",
-    "invalidPage": "./pages/invalid.ts",
-    "settingpagePage": "./pages/settingpage.ts",
-    "companynotePage": "./pages/companynote.ts",
-    "datadrivenPage": "./pages/datadriven.ts",
-    "launchPage": "./pages/launch.ts"
-=======
-    "pagesPage": "./pages/pages.ts",
-    "datadrivenPage": "./pages/datadriven.ts"
->>>>>>> qa/newcompanySearch
-=======
-    "invalidPage": "./pages/invalid.ts"
->>>>>>> qa/notecreated
-=======
-    "pagesPage": "./pages/pages.ts",
-    "datadrivenPage": "./pages/datadriven.ts"
->>>>>>> qa/setting
+    // "loginPage": "./pages/login.ts",
+    // "validCompanySearchPage": "./pages/validCompanySearch.ts",
+    // "invalidCompanySearchPage": "./pages/invalidCompanySearch.ts",
+    // "invalidPage": "./pages/invalid.ts",
+    // "settingpagePage": "./pages/settingpage.ts",
+    // "companynotePage": "./pages/companynote.ts",
+    // "datadrivenPage": "./pages/datadriven.ts",
+    // "launchPage": "./pages/launch.ts",
+    // "pagesPage": "./pages/pages.ts",
   },
   name: 'codeceptjs_practice',
   fullPromiseBased: true,
   plugins:{
-<<<<<<< HEAD
-<<<<<<< HEAD
     allure: {
       enabled:true
     }
   }
 }
-{
-  {
-    true
-  }
-}
-=======
-=======
->>>>>>> qa/setting
-    allure : {
-     enabled : true
-    }
-}
-};
-
-<<<<<<< HEAD
->>>>>>> qa/newcompanySearch
-=======
->>>>>>> qa/setting

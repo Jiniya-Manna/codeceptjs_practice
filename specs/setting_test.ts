@@ -1,4 +1,5 @@
-import loginPage = require("../pages/login");
+//import loginPage from  "../pages/login"
+import loginPage from "../pages/login";
 Feature('setting_test');
 var faker = require ('faker')
 Scenario('go to setting', async ({ I }) => {
