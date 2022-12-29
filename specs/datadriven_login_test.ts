@@ -1,5 +1,5 @@
 //import { datadriven } from "../pages/datadriven";
-import datadrivenPage from "../pages/datadriven";
+//import datadrivenPage from "../pages/datadriven";
 Feature('login');
 let accounts = new DataTable(['login', 'password']);
 accounts.add(['jiniya+1@itobuz.com', 'Password@50']); 

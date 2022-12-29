@@ -1,12 +1,7 @@
 const { I } = inject();
 
 export = {
-<<<<<<< HEAD:pages/validCompanySearch.ts
-  async validComapanySearch()  {
-=======
-  
-  async noteCreated()  {
->>>>>>> qa/notecreated:pages/noteCreated.ts
+   async noteCreated()  {
   I.click('[href="/companies/list"]');
   I.wait(3)
   let companyList = await I.grabTextFromAll('[data-test-id="company-row"]');
@@ -26,3 +21,4 @@ export = {
   I.limitTime(3).click('[type="submit"]');
 }
 }
+

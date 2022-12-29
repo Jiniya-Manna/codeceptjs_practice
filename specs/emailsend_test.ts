@@ -1,5 +1,5 @@
 import loginPage  from "../pages/login";
-import validCompanySearch from "../pages/validCompanySearch"
+//import validCompanySearch from "../pages/validCompanySearch"
 //import launchPage from "../pages/launch";
 
 Feature('pretaa_comments_test');
