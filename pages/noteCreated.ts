@@ -18,7 +18,9 @@ export = {
   I.fillField('[name="subject"]' , 'Pretaa');
   //I.wait(2);
   I.fillField('[data-placeholder="Add Details"]' , ' Preta app is good ');
-  I.limitTime(3).click('[type="submit"]');
+  I.wait(2)
+  I.click('[type="submit"]');
+
 }
 }
 

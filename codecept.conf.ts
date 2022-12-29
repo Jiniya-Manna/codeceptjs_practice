@@ -21,31 +21,23 @@ export const config: CodeceptJS.MainConfig = {
 
     }
   },
-multiple : {
-  parallel: {
-    chunks : 2,
-    browser : 'chromium',
-    browsers: 'firefox',
-    windowSize : 'maximize',
-  }
-},
- include: {
+  multiple: {
+    parallel: {
+      chunks: 2,
+      browser: 'chromium',
+      browsers: 'firefox',
+      windowSize: 'maximize',
+    }
+  },
+  include: {
     "I": "./steps_file",
-    // "loginPage": "./pages/login.ts",
-    // "validCompanySearchPage": "./pages/validCompanySearch.ts",
-    // "invalidCompanySearchPage": "./pages/invalidCompanySearch.ts",
-    // "invalidPage": "./pages/invalid.ts",
-    // "settingpagePage": "./pages/settingpage.ts",
-    // "companynotePage": "./pages/companynote.ts",
-    // "datadrivenPage": "./pages/datadriven.ts",
-    // "launchPage": "./pages/launch.ts",
-    // "pagesPage": "./pages/pages.ts",
+    //"validcompanySearchPage": "./pages/validcompanySearch.ts"
   },
   name: 'codeceptjs_practice',
   fullPromiseBased: true,
-  plugins:{
+  plugins: {
     allure: {
-      enabled:true
+      enabled: true
     }
   }
 }
