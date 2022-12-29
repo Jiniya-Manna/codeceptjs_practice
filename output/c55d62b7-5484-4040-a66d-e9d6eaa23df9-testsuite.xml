@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1671086792958' stop='1671086795842'>
+    <name>login:</name>
+    <title>login:</title>
+    <test-cases>
+        <test-case start='1671086793648' status='passed' stop='1671086795791'>
+            <name>PretaaLogin_test</name>
+            <title>PretaaLogin_test</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1671086794193' status='passed' stop='1671086795783'>
+                    <name>I am on page "https://pretaa-staging.netlify.app/login"</name>
+                    <title>I am on page "https://pretaa-staging.netlify.app/login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671086795783' status='passed' stop='1671086795791'>
+                    <name>I see "Continue"</name>
+                    <title>I see "Continue"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

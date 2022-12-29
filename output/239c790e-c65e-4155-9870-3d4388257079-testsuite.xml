@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1671087101843' stop='1671087102622'>
+    <name>login:</name>
+    <title>login:</title>
+    <test-cases>
+        <test-case start='1671087102177' status='failed' stop='1671087102489'>
+            <name>PretaaLogin_test</name>
+            <title>PretaaLogin_test</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1671087102481' status='failed' stop='1671087102488'>
+                    <name>I am on page "/login"</name>
+                    <title>I am on page "/login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='a408f666-be40-4d6e-9160-7f1d3e5edd6b-attachment.png' type='image/png' size='29914'/>
+            </attachments>
+            <failure>
+                <message>page.goto: net::ERR_CONNECTION_REFUSED at http://localhost/login
+                =========================== logs ===========================
+                navigating to "http://localhost/login", waiting until "load"
+                ============================================================</message>
+                <stack-trace>page.goto: net::ERR_CONNECTION_REFUSED at http://localhost/login
+                =========================== logs ===========================
+                navigating to "http://localhost/login", waiting until "load"
+                ============================================================
+                    at Playwright.amOnPage (/Users/itobuz/Desktop/macbook/codeceptjs_practice/node_modules/codeceptjs/lib/helper/Playwright.js:833:21)
+                    at Step.run (/Users/itobuz/Desktop/macbook/codeceptjs_practice/node_modules/codeceptjs/lib/step.js:122:47)
+                    at /Users/itobuz/Desktop/macbook/codeceptjs_practice/node_modules/codeceptjs/lib/actor.js:134:23</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

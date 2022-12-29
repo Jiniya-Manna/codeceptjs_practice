@@ -21,7 +21,11 @@
         "typescript": "^4.9.3"
     },
     "dependencies": {
+<<<<<<< HEAD
         "allure-commandline": "^2.20.1",
         "faker": "^5.5.3"
+=======
+       
+>>>>>>> qa/login
     }
 }

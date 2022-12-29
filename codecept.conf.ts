@@ -34,5 +34,15 @@ export const config: CodeceptJS.MainConfig = {
     "launchPage": "./pages/launch.ts"
   },
   name: 'codeceptjs_practice',
-  fullPromiseBased: true
+  fullPromiseBased: true,
+  plugins:{
+    allure: {
+      enabled:true
+    }
+  }
+}
+{
+  {
+    true
+  }
 }
