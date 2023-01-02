@@ -31,7 +31,7 @@ export const config: CodeceptJS.MainConfig = {
   },
   include: {
     "I": "./steps_file",
-    //"validcompanySearchPage": "./pages/validcompanySearch.ts"
+    "beforeLoginPage": "./pages/beforeLogin.ts"
   },
   name: 'codeceptjs_practice',
   fullPromiseBased: true,

@@ -1,0 +1,34 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672394831601' stop='1672394841919'>
+    <name>validCompany:</name>
+    <title>validCompany:</title>
+    <test-cases>
+        <test-case start='1672394831601' status='failed' stop='1672394841833'>
+            <name>valid company</name>
+            <title>valid company</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1672394831604' status='passed' stop='1672394837121'>
+                    <name>I am on page "/login"</name>
+                    <title>I am on page "/login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672394837121' status='failed' stop='1672394841833'>
+                    <name>I see "Continue"</name>
+                    <title>I see "Continue"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='30913d59-394f-4d62-adf9-256aeb6297fd-attachment.png' type='image/png' size='108963'/>
+            </attachments>
+            <failure>
+                <message></message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -8,7 +8,8 @@ export = {
         password: '[data-testid="password"]',
         UserName: '[data-testid="email"]',
         showPassword: '[type="button"]',
-        continueBtn: '[data-testid="continue-btn"]'
+        continueBtn: '[data-testid="continue-btn"]',
+        logout:'[data-test-id="logout"]',
     },
 
 login() {
@@ -23,5 +24,6 @@ login() {
     I.click(this.locator.showPassword);
     I.click(this.locator.submitBtn);
     I.wait(3);
+    I.click()
 }
 }

@@ -8,11 +8,10 @@ export = {
     logOut:'[href="/logout"]',
   },
 
-  invalidA() {
+    invalidA() {
     I.click(this.locator.companyListlink);
     I.wait(3)
     let  words = faker.random.words();
-    console.log("output",words);
     I.fillField(this.locator.searchBar , words);
     I.see("No results");
     I.click(this.locator.logOut);

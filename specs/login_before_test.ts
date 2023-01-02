@@ -1,17 +1,12 @@
+import beforelogin from "../pages/beforeLogin";
+import invalid from "../pages/invalid";
 Feature('Login');
 Before(({I}) => {
-I.amOnPage('https://pretaa-staging.netlify.app')
-})
+    I.amOnPage('/login')
+  });
 Scenario('Successful login', ({I}) => {
-    I.fillField('[data-testid="email"]' , 'jiniya+1+admin@itobuz.com');
-    I.click('[data-testid="continue-btn"]');
-    I.fillField('[data-testid="password"]' , 'Password@50');
-    I.see('Show Password');
-    I.wait(1);
-    I.click('[type="button"]');
-    I.click('[data-testid="submit-btn"]');
-    I.see('Events');
- });
+    beforelogin.beforeLogin()
+});
 After(({I}) => { 
-    I.click('[data-test-id="logout"]');
+    I.click(invalid.locator.logOut);
 });
