@@ -1,4 +1,5 @@
 import invalid from "./invalid";
+import  login from "./login";
 
 const { I } = inject();
 export = {
@@ -54,7 +55,7 @@ export = {
     I.click(this.locator.useCaseItem);
     I.limitTime(1).click(this.locator.saveBtn);
     I.wait(3);
-    I.click(invalid.locator.logOut);
+    I.click(login.locator.logout);
     I.wait(2);
 }
 }
