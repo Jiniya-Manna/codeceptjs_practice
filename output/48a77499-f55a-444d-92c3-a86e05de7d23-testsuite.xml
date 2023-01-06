@@ -1,0 +1,139 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673012580862' stop='1673012595906'>
+    <name>multiplelogin:</name>
+    <title>multiplelogin:</title>
+    <test-cases>
+        <test-case start='1673012581204' status='passed' stop='1673012589379'>
+            <name>PretaaLogin_test | {"login":"jiniya+1@itobuz.com","password":"Password@50"}</name>
+            <title>PretaaLogin_test | {"login":"jiniya+1@itobuz.com","password":"Password@50"}</title>
+            <labels>
+                <label name='tag' value='@itobuz'/>
+                <label name='tag' value='@50'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1673012581518' status='passed' stop='1673012583808'>
+                    <name>I am on page "/login"</name>
+                    <title>I am on page "/login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673012583808' status='passed' stop='1673012584209'>
+                    <name>I fill field "[data-testid="email"]", "jiniya+1@itobuz.com"</name>
+                    <title>I fill field "[data-testid="email"]", "jiniya+1@itobuz.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673012584210' status='passed' stop='1673012584404'>
+                    <name>I click "[data-testid="continue-btn"]"</name>
+                    <title>I click "[data-testid="continue-btn"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673012584404' status='passed' stop='1673012585405'>
+                    <name>I wait 1</name>
+                    <title>I wait 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673012585406' status='passed' stop='1673012585841'>
+                    <name>I fill field "[data-testid="password"]", "Password@50"</name>
+                    <title>I fill field "[data-testid="password"]", "Password@50"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673012585842' status='passed' stop='1673012586001'>
+                    <name>I click "[data-testid="submit-btn"]"</name>
+                    <title>I click "[data-testid="submit-btn"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673012586001' status='passed' stop='1673012589001'>
+                    <name>I wait 3</name>
+                    <title>I wait 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673012589001' status='passed' stop='1673012589015'>
+                    <name>I see "Events"</name>
+                    <title>I see "Events"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673012589015' status='passed' stop='1673012589379'>
+                    <name>I click "[data-test-id="logout"]"</name>
+                    <title>I click "[data-test-id="logout"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1673012589385' status='passed' stop='1673012595903'>
+            <name>PretaaLogin_test | {"login":"jiniya+1+admin@itobuz.com","password":"Password@50"}</name>
+            <title>PretaaLogin_test | {"login":"jiniya+1+admin@itobuz.com","password":"Password@50"}</title>
+            <labels>
+                <label name='tag' value='@itobuz'/>
+                <label name='tag' value='@50'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1673012589390' status='passed' stop='1673012590423'>
+                    <name>I am on page "/login"</name>
+                    <title>I am on page "/login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673012590424' status='passed' stop='1673012590882'>
+                    <name>I fill field "[data-testid="email"]", "jiniya+1+admin@itobuz.com"</name>
+                    <title>I fill field "[data-testid="email"]", "jiniya+1+admin@itobuz.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673012590883' status='passed' stop='1673012591036'>
+                    <name>I click "[data-testid="continue-btn"]"</name>
+                    <title>I click "[data-testid="continue-btn"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673012591036' status='passed' stop='1673012592037'>
+                    <name>I wait 1</name>
+                    <title>I wait 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673012592037' status='passed' stop='1673012592314'>
+                    <name>I fill field "[data-testid="password"]", "Password@50"</name>
+                    <title>I fill field "[data-testid="password"]", "Password@50"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673012592314' status='passed' stop='1673012592444'>
+                    <name>I click "[data-testid="submit-btn"]"</name>
+                    <title>I click "[data-testid="submit-btn"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673012592445' status='passed' stop='1673012595447'>
+                    <name>I wait 3</name>
+                    <title>I wait 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673012595447' status='passed' stop='1673012595457'>
+                    <name>I see "Events"</name>
+                    <title>I see "Events"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673012595457' status='passed' stop='1673012595903'>
+                    <name>I click "[data-test-id="logout"]"</name>
+                    <title>I click "[data-test-id="logout"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

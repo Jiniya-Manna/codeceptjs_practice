@@ -1,0 +1,87 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672726164687' stop='1672726170148'>
+    <name>multiplelogin:</name>
+    <title>multiplelogin:</title>
+    <test-cases>
+        <test-case start='1672726165000' status='failed' stop='1672726168150'>
+            <name>PretaaLogin_test | {"login":"jiniya+1@itobuz.com","password":"Password@50"}</name>
+            <title>PretaaLogin_test | {"login":"jiniya+1@itobuz.com","password":"Password@50"}</title>
+            <labels>
+                <label name='tag' value='@itobuz'/>
+                <label name='tag' value='@50'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1672726165274' status='passed' stop='1672726166722'>
+                    <name>I am on page "/login"</name>
+                    <title>I am on page "/login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672726166722' status='passed' stop='1672726168149'>
+                    <name>I am on page "/login"</name>
+                    <title>I am on page "/login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='295eddac-d4db-4bb3-b7a3-d49441233566-attachment.png' type='image/png' size='22547'/>
+            </attachments>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'login')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'login')
+                    at Object.datadrivenA (/Users/itobuz/Desktop/macbook/codeceptjs_practice/pages/datadriven.ts:8:47)
+                    at Test.&lt;anonymous> (/Users/itobuz/Desktop/macbook/codeceptjs_practice/specs/datadriven_login_test.ts:9:20)
+                    at Context.test.fn (/Users/itobuz/Desktop/macbook/codeceptjs_practice/node_modules/codeceptjs/lib/scenario.js:91:14)
+                    at callFnAsync (/Users/itobuz/Desktop/macbook/codeceptjs_practice/node_modules/mocha/lib/runnable.js:386:21)
+                    at Test.Runnable.run (/Users/itobuz/Desktop/macbook/codeceptjs_practice/node_modules/mocha/lib/runnable.js:330:7)
+                    at Runner.runTest (/Users/itobuz/Desktop/macbook/codeceptjs_practice/node_modules/mocha/lib/runner.js:621:10)
+                    at /Users/itobuz/Desktop/macbook/codeceptjs_practice/node_modules/mocha/lib/runner.js:745:12
+                    at next (/Users/itobuz/Desktop/macbook/codeceptjs_practice/node_modules/mocha/lib/runner.js:538:14)
+                    at /Users/itobuz/Desktop/macbook/codeceptjs_practice/node_modules/mocha/lib/runner.js:548:7
+                    at next (/Users/itobuz/Desktop/macbook/codeceptjs_practice/node_modules/mocha/lib/runner.js:430:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1672726168258' status='failed' stop='1672726170068'>
+            <name>PretaaLogin_test | {"login":"jiniya+1+admin@itobuz.com","password":"Password@50"}</name>
+            <title>PretaaLogin_test | {"login":"jiniya+1+admin@itobuz.com","password":"Password@50"}</title>
+            <labels>
+                <label name='tag' value='@itobuz'/>
+                <label name='tag' value='@50'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1672726168260' status='passed' stop='1672726169249'>
+                    <name>I am on page "/login"</name>
+                    <title>I am on page "/login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672726169249' status='passed' stop='1672726170068'>
+                    <name>I am on page "/login"</name>
+                    <title>I am on page "/login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='1dc3bc23-5041-4369-ad79-74aaf731c962-attachment.png' type='image/png' size='22547'/>
+            </attachments>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'login')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'login')
+                    at Object.datadrivenA (/Users/itobuz/Desktop/macbook/codeceptjs_practice/pages/datadriven.ts:8:47)
+                    at Test.&lt;anonymous> (/Users/itobuz/Desktop/macbook/codeceptjs_practice/specs/datadriven_login_test.ts:9:20)
+                    at Context.test.fn (/Users/itobuz/Desktop/macbook/codeceptjs_practice/node_modules/codeceptjs/lib/scenario.js:91:14)
+                    at callFnAsync (/Users/itobuz/Desktop/macbook/codeceptjs_practice/node_modules/mocha/lib/runnable.js:386:21)
+                    at Test.Runnable.run (/Users/itobuz/Desktop/macbook/codeceptjs_practice/node_modules/mocha/lib/runnable.js:330:7)
+                    at Runner.runTest (/Users/itobuz/Desktop/macbook/codeceptjs_practice/node_modules/mocha/lib/runner.js:621:10)
+                    at /Users/itobuz/Desktop/macbook/codeceptjs_practice/node_modules/mocha/lib/runner.js:745:12
+                    at next (/Users/itobuz/Desktop/macbook/codeceptjs_practice/node_modules/mocha/lib/runner.js:538:14)
+                    at /Users/itobuz/Desktop/macbook/codeceptjs_practice/node_modules/mocha/lib/runner.js:548:7
+                    at next (/Users/itobuz/Desktop/macbook/codeceptjs_practice/node_modules/mocha/lib/runner.js:430:14)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

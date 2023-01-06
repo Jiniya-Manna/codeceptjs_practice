@@ -1,0 +1,154 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672749949882' stop='1672749977958'>
+    <name>creatNote:</name>
+    <title>creatNote:</title>
+    <test-cases>
+        <test-case start='1672749950523' status='passed' stop='1672749965251'>
+            <name>note create</name>
+            <title>note create</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1672749950998' status='passed' stop='1672749954459'>
+                    <name>I am on page "/login"</name>
+                    <title>I am on page "/login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672749954460' status='passed' stop='1672749954471'>
+                    <name>I see "Continue"</name>
+                    <title>I see "Continue"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672749954472' status='passed' stop='1672749954947'>
+                    <name>I fill field "[data-testid="email"]", "jiniya+1+admin@itobuz.com"</name>
+                    <title>I fill field "[data-testid="email"]", "jiniya+1+admin@itobuz.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672749954948' status='passed' stop='1672749955183'>
+                    <name>I click "[data-testid="continue-btn"]"</name>
+                    <title>I click "[data-testid="continue-btn"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672749955184' status='passed' stop='1672749957726'>
+                    <name>I fill field "[data-testid="password"]", "Password@50"</name>
+                    <title>I fill field "[data-testid="password"]", "Password@50"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672749957726' status='passed' stop='1672749957736'>
+                    <name>I see "Show Password"</name>
+                    <title>I see "Show Password"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672749957736' status='passed' stop='1672749958738'>
+                    <name>I wait 1</name>
+                    <title>I wait 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672749958738' status='passed' stop='1672749958859'>
+                    <name>I click "[type="button"]"</name>
+                    <title>I click "[type="button"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672749958859' status='passed' stop='1672749959031'>
+                    <name>I click "[data-testid="submit-btn"]"</name>
+                    <title>I click "[data-testid="submit-btn"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672749959031' status='passed' stop='1672749962032'>
+                    <name>I wait 3</name>
+                    <title>I wait 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672749962032' status='passed' stop='1672749962194'>
+                    <name>I click "[href="/companies/list"]"</name>
+                    <title>I click "[href="/companies/list"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672749962194' status='passed' stop='1672749965196'>
+                    <name>I wait 3</name>
+                    <title>I wait 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672749965196' status='passed' stop='1672749965249'>
+                    <name>I grab text from all "[data-test-id="company-row"]"</name>
+                    <title>I grab text from all "[data-test-id="company-row"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672749965252' status='passed' stop='1672749965628'>
+                    <name>I fill field "[data-testid="search-input"]", "Beer - Hickle Similar"</name>
+                    <title>I fill field "[data-testid="search-input"]", "Beer - Hickle Similar"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672749965628' status='passed' stop='1672749967629'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672749967629' status='passed' stop='1672749967775'>
+                    <name>I click "Beer - Hickle Similar"</name>
+                    <title>I click "Beer - Hickle Similar"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672749967775' status='passed' stop='1672749970776'>
+                    <name>I wait 3</name>
+                    <title>I wait 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672749970776' status='passed' stop='1672749970916'>
+                    <name>I click "[data-test-id="floating-btn"]"</name>
+                    <title>I click "[data-test-id="floating-btn"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672749970916' status='passed' stop='1672749971064'>
+                    <name>I click "[data-testid="note-create"]"</name>
+                    <title>I click "[data-testid="note-create"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672749971064' status='passed' stop='1672749971073'>
+                    <name>I wait for element ".pb-4 input"</name>
+                    <title>I wait for element ".pb-4 input"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672749971073' status='passed' stop='1672749971258'>
+                    <name>I fill field ".pb-4 input", "Pretaa"</name>
+                    <title>I fill field ".pb-4 input", "Pretaa"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672749971259' status='passed' stop='1672749973260'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672749973261' status='failed' stop='1672749977953'>
+                    <name>I fill field "//*[@id="popup-49"]/div[2]/form/div[2]/div/div/div/div[2]/div[1]/p", " Preta app is good "</name>
+                    <title>I fill field "//*[@id="popup-49"]/div[2]/form/div[2]/div/div/div/div[2]/div[1]/p", " Preta app is good "</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

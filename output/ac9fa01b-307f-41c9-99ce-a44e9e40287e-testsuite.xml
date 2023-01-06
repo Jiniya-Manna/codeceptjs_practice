@@ -1,0 +1,136 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672838352561' stop='1672838374341'>
+    <name>login:</name>
+    <title>login:</title>
+    <test-cases>
+        <test-case start='1672838353188' status='passed' stop='1672838374338'>
+            <name>PretaaLogin_test</name>
+            <title>PretaaLogin_test</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1672838353648' status='passed' stop='1672838358966'>
+                    <name>I am on page "/login"</name>
+                    <title>I am on page "/login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672838358966' status='passed' stop='1672838358975'>
+                    <name>I see "Continue"</name>
+                    <title>I see "Continue"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672838358975' status='passed' stop='1672838359432'>
+                    <name>I fill field "[data-testid="email"]", "jiniya+1+admin@itobuz.com"</name>
+                    <title>I fill field "[data-testid="email"]", "jiniya+1+admin@itobuz.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672838359432' status='passed' stop='1672838359641'>
+                    <name>I click "[data-testid="continue-btn"]"</name>
+                    <title>I click "[data-testid="continue-btn"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672838359641' status='passed' stop='1672838362188'>
+                    <name>I fill field "[data-testid="password"]", "Password@50"</name>
+                    <title>I fill field "[data-testid="password"]", "Password@50"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672838362188' status='passed' stop='1672838362199'>
+                    <name>I see "Show Password"</name>
+                    <title>I see "Show Password"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672838362199' status='passed' stop='1672838363200'>
+                    <name>I wait 1</name>
+                    <title>I wait 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672838363201' status='passed' stop='1672838363330'>
+                    <name>I click "[type="button"]"</name>
+                    <title>I click "[type="button"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672838363331' status='passed' stop='1672838363498'>
+                    <name>I click "[data-testid="submit-btn"]"</name>
+                    <title>I click "[data-testid="submit-btn"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672838363499' status='passed' stop='1672838366501'>
+                    <name>I wait 3</name>
+                    <title>I wait 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672838366501' status='passed' stop='1672838366686'>
+                    <name>I click "[href="/settings/preferences/profile"]"</name>
+                    <title>I click "[href="/settings/preferences/profile"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672838366686' status='passed' stop='1672838366811'>
+                    <name>I click ".pl-4 div:nth-child(4) h3"</name>
+                    <title>I click ".pl-4 div:nth-child(4) h3"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672838366811' status='passed' stop='1672838368812'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672838368812' status='passed' stop='1672838368965'>
+                    <name>I click "[href="/settings/admin/user-list"]"</name>
+                    <title>I click "[href="/settings/admin/user-list"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672838368965' status='passed' stop='1672838370967'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672838370967' status='passed' stop='1672838371647'>
+                    <name>I click "[type="submit"]:nth-child(1)"</name>
+                    <title>I click "[type="submit"]:nth-child(1)"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672838371647' status='passed' stop='1672838371794'>
+                    <name>I click "[data-test-id="options"]"</name>
+                    <title>I click "[data-test-id="options"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672838371794' status='passed' stop='1672838372872'>
+                    <name>I see element "[data-test-id="page-title"]"</name>
+                    <title>I see element "[data-test-id="page-title"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672838372872' status='passed' stop='1672838374200'>
+                    <name>I click "[data-testid="content-frame"] div:nth-child(3) div:nth-child(1) label"</name>
+                    <title>I click "[data-testid="content-frame"] div:nth-child(3) div:nth-child(1) label"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672838374200' status='passed' stop='1672838374337'>
+                    <name>I attach file "[data-testid="content-frame"] div:nth-child(3) div:nth-child(1) label", "user_coustomer.xlsx"</name>
+                    <title>I attach file "[data-testid="content-frame"] div:nth-child(3) div:nth-child(1) label", "user_coustomer.xlsx"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

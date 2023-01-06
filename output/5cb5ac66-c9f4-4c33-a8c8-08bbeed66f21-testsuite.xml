@@ -1,0 +1,140 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672832608172' stop='1672832624081'>
+    <name>login:</name>
+    <title>login:</title>
+    <test-cases>
+        <test-case start='1672832608814' status='failed' stop='1672832623977'>
+            <name>PretaaLogin_test</name>
+            <title>PretaaLogin_test</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1672832609317' status='passed' stop='1672832611142'>
+                    <name>I am on page "/login"</name>
+                    <title>I am on page "/login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672832611142' status='passed' stop='1672832611153'>
+                    <name>I see "Continue"</name>
+                    <title>I see "Continue"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672832611154' status='passed' stop='1672832611632'>
+                    <name>I fill field "[data-testid="email"]", "jiniya+1+admin@itobuz.com"</name>
+                    <title>I fill field "[data-testid="email"]", "jiniya+1+admin@itobuz.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672832611633' status='passed' stop='1672832611862'>
+                    <name>I click "[data-testid="continue-btn"]"</name>
+                    <title>I click "[data-testid="continue-btn"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672832611862' status='passed' stop='1672832614414'>
+                    <name>I fill field "[data-testid="password"]", "Password@50"</name>
+                    <title>I fill field "[data-testid="password"]", "Password@50"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672832614414' status='passed' stop='1672832614425'>
+                    <name>I see "Show Password"</name>
+                    <title>I see "Show Password"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672832614425' status='passed' stop='1672832615426'>
+                    <name>I wait 1</name>
+                    <title>I wait 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672832615426' status='passed' stop='1672832615562'>
+                    <name>I click "[type="button"]"</name>
+                    <title>I click "[type="button"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672832615562' status='passed' stop='1672832615725'>
+                    <name>I click "[data-testid="submit-btn"]"</name>
+                    <title>I click "[data-testid="submit-btn"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672832615726' status='passed' stop='1672832618727'>
+                    <name>I wait 3</name>
+                    <title>I wait 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672832618728' status='passed' stop='1672832618914'>
+                    <name>I click "[href="/settings/preferences/profile"]"</name>
+                    <title>I click "[href="/settings/preferences/profile"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672832618914' status='passed' stop='1672832619043'>
+                    <name>I click ".pl-4 div:nth-child(4) h3"</name>
+                    <title>I click ".pl-4 div:nth-child(4) h3"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672832619043' status='passed' stop='1672832621045'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672832621045' status='passed' stop='1672832621199'>
+                    <name>I click "[href="/settings/admin/user-list"]"</name>
+                    <title>I click "[href="/settings/admin/user-list"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672832621199' status='passed' stop='1672832623200'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672832623200' status='passed' stop='1672832623363'>
+                    <name>I click "[type="submit"]:nth-child(1)"</name>
+                    <title>I click "[type="submit"]:nth-child(1)"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672832623363' status='passed' stop='1672832623509'>
+                    <name>I click "[data-test-id="options"]"</name>
+                    <title>I click "[data-test-id="options"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672832623509' status='passed' stop='1672832623976'>
+                    <name>I see element "[data-test-id="page-title"]"</name>
+                    <title>I see element "[data-test-id="page-title"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='bd5cbd30-f0d7-4168-8304-f18d011f8088-attachment.png' type='image/png' size='74466'/>
+            </attachments>
+            <failure>
+                <message>I.setInputFiles is not a function</message>
+                <stack-trace>TypeError: I.setInputFiles is not a function
+                    at Test.&lt;anonymous> (/Users/itobuz/Desktop/macbook/codeceptjs_practice/specs/upload_test.ts:16:7)
+                    at Context.test.fn (/Users/itobuz/Desktop/macbook/codeceptjs_practice/node_modules/codeceptjs/lib/scenario.js:91:14)
+                    at callFnAsync (/Users/itobuz/Desktop/macbook/codeceptjs_practice/node_modules/mocha/lib/runnable.js:386:21)
+                    at Test.Runnable.run (/Users/itobuz/Desktop/macbook/codeceptjs_practice/node_modules/mocha/lib/runnable.js:330:7)
+                    at Runner.runTest (/Users/itobuz/Desktop/macbook/codeceptjs_practice/node_modules/mocha/lib/runner.js:621:10)
+                    at /Users/itobuz/Desktop/macbook/codeceptjs_practice/node_modules/mocha/lib/runner.js:745:12
+                    at next (/Users/itobuz/Desktop/macbook/codeceptjs_practice/node_modules/mocha/lib/runner.js:538:14)
+                    at /Users/itobuz/Desktop/macbook/codeceptjs_practice/node_modules/mocha/lib/runner.js:548:7
+                    at next (/Users/itobuz/Desktop/macbook/codeceptjs_practice/node_modules/mocha/lib/runner.js:430:14)
+                    at cbHookRun (/Users/itobuz/Desktop/macbook/codeceptjs_practice/node_modules/mocha/lib/runner.js:495:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

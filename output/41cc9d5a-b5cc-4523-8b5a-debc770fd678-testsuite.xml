@@ -1,0 +1,122 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673015602462' stop='1673015614852'>
+    <name>feedback:</name>
+    <title>feedback:</title>
+    <test-cases>
+        <test-case start='1673015603146' status='failed' stop='1673015614707'>
+            <name>feedback_test</name>
+            <title>feedback_test</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1673015603633' status='passed' stop='1673015605137'>
+                    <name>I am on page "/login"</name>
+                    <title>I am on page "/login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673015605137' status='passed' stop='1673015605144'>
+                    <name>I see "Continue"</name>
+                    <title>I see "Continue"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673015605144' status='passed' stop='1673015605609'>
+                    <name>I fill field "[data-testid="email"]", "jiniya+1+admin@itobuz.com"</name>
+                    <title>I fill field "[data-testid="email"]", "jiniya+1+admin@itobuz.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673015605610' status='passed' stop='1673015605831'>
+                    <name>I click "[data-testid="continue-btn"]"</name>
+                    <title>I click "[data-testid="continue-btn"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673015605831' status='passed' stop='1673015607174'>
+                    <name>I fill field "[data-testid="password"]", "Password@50"</name>
+                    <title>I fill field "[data-testid="password"]", "Password@50"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673015607174' status='passed' stop='1673015607185'>
+                    <name>I see "Show Password"</name>
+                    <title>I see "Show Password"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673015607185' status='passed' stop='1673015608186'>
+                    <name>I wait 1</name>
+                    <title>I wait 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673015608186' status='passed' stop='1673015608332'>
+                    <name>I click "[type="button"]"</name>
+                    <title>I click "[type="button"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673015608332' status='passed' stop='1673015608498'>
+                    <name>I click "[data-testid="submit-btn"]"</name>
+                    <title>I click "[data-testid="submit-btn"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673015608499' status='passed' stop='1673015611500'>
+                    <name>I wait 3</name>
+                    <title>I wait 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673015611501' status='passed' stop='1673015611512'>
+                    <name>I see "Events"</name>
+                    <title>I see "Events"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673015611512' status='passed' stop='1673015611688'>
+                    <name>I click "[data-testid="feedback-link"]"</name>
+                    <title>I click "[data-testid="feedback-link"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673015611688' status='passed' stop='1673015612690'>
+                    <name>I wait 1</name>
+                    <title>I wait 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673015612691' status='passed' stop='1673015612703'>
+                    <name>I see "Feedback"</name>
+                    <title>I see "Feedback"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673015612704' status='passed' stop='1673015614705'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='9d16e658-8858-48f9-9a9c-a72a2a05d444-attachment.png' type='image/png' size='47785'/>
+            </attachments>
+            <failure>
+                <message>this.locator.ratingBtn is not a function</message>
+                <stack-trace>TypeError: this.locator.ratingBtn is not a function
+                    at Object.feedback (/Users/itobuz/Desktop/macbook/codeceptjs_practice/pages/feedback.ts:25:26)
+                    at Test.&lt;anonymous> (/Users/itobuz/Desktop/macbook/codeceptjs_practice/specs/feedback_test.ts:6:18)
+                    at Context.test.fn (/Users/itobuz/Desktop/macbook/codeceptjs_practice/node_modules/codeceptjs/lib/scenario.js:91:14)
+                    at callFnAsync (/Users/itobuz/Desktop/macbook/codeceptjs_practice/node_modules/mocha/lib/runnable.js:386:21)
+                    at Test.Runnable.run (/Users/itobuz/Desktop/macbook/codeceptjs_practice/node_modules/mocha/lib/runnable.js:330:7)
+                    at Runner.runTest (/Users/itobuz/Desktop/macbook/codeceptjs_practice/node_modules/mocha/lib/runner.js:621:10)
+                    at /Users/itobuz/Desktop/macbook/codeceptjs_practice/node_modules/mocha/lib/runner.js:745:12
+                    at next (/Users/itobuz/Desktop/macbook/codeceptjs_practice/node_modules/mocha/lib/runner.js:538:14)
+                    at /Users/itobuz/Desktop/macbook/codeceptjs_practice/node_modules/mocha/lib/runner.js:548:7
+                    at next (/Users/itobuz/Desktop/macbook/codeceptjs_practice/node_modules/mocha/lib/runner.js:430:14)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

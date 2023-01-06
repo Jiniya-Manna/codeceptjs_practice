@@ -1,4 +1,4 @@
-//import { locator } from "codeceptjs";
+import { locator } from "codeceptjs";
 
 const { I } = inject();
 export = {
@@ -9,7 +9,7 @@ export = {
         UserName: '[data-testid="email"]',
         showPassword: '[type="button"]',
         continueBtn: '[data-testid="continue-btn"]',
-        logout:'[data-test-id="logout"]',
+        logout: '[data-test-id="logout"]'
     },
 
 login() {
@@ -24,6 +24,7 @@ login() {
     I.click(this.locator.showPassword);
     I.click(this.locator.submitBtn);
     I.wait(3);
-    I.click()
+    //I.click(this.locator.logout);
+
 }
 }

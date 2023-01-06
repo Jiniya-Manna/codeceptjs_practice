@@ -31,7 +31,10 @@ export const config: CodeceptJS.MainConfig = {
   },
   include: {
     "I": "./steps_file",
-    "beforeLoginPage": "./pages/beforeLogin.ts"
+    "beforeLoginPage": "./pages/beforeLogin.ts",
+    "editgrpPage": "./pages/editgrp.ts",
+    "testuploadfilePage": "./pages/testuploadfile.ts",
+    "feedbackPage": "./pages/feedback.ts"
   },
   name: 'codeceptjs_practice',
   fullPromiseBased: true,

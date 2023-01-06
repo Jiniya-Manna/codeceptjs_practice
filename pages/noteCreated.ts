@@ -7,10 +7,10 @@ export = {
 locator:{
   companylist:'[data-test-id="company-row"]',
   floatBtn: '[data-test-id="floating-btn"]',
-  NoteCreated:'[data-testid="note-create"]',
-  NoteTitleBar:'[name="subject"]',
-  NoteDetails:'[data-placeholder="Add Details"]',
-  SubmitBtn:'[type="submit"]'
+  noteCreated:'[data-testid="note-create"]',
+  noteTitleBar:'[name="subject"]',
+  noteDetails:'[class="ql-editor ql-blank"]',
+  submitBtn:'[type="submit"]'
 },
    async noteCreated() {
   I.click(invalid.locator.companyListlink);
@@ -25,14 +25,15 @@ locator:{
   I.click(x);
   I.wait(3);
   I.click(this.locator.floatBtn);
-  I.limitTime(2).click(this.locator.NoteCreated);
-  I.waitForElement(this.locator.NoteTitleBar);
-  I.fillField( this.locator.NoteTitleBar, 'Pretaa');
+  I.limitTime(2).click(this.locator.noteCreated);
+  I.waitForElement(this.locator.noteTitleBar);
   I.wait(2);
-  I.fillField( this.locator.NoteDetails, ' Preta app is good ');
-  I.wait(5);
+  I.fillField( this.locator.noteTitleBar, 'Pretaa');
+  I.wait(2);
+  I.fillField( this.locator.noteDetails, ' Preta app is good ');
   I.click(this.locator.SubmitBtn);
-
+  I.see('Note created successfully');
+  I.wait(3);
 }
 }
 
